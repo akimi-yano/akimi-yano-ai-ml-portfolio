@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* NavBar Page */
+#navbar {
+  z-index: 4;
+  position: absolute;
+  height: 64px;
+}
+
+li {
+  display: block;
+  transition-duration: 0.5s;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+/* Bannar Page */
+#banner {
+  background: black
+}
+
+.english_quote{
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.japanese_quote{
+  text-align: center;
+  font-size: 2.0vw;
+}
+
+.job_title{
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+#about {
+  background: blue
+}
+
+#project {
+  background: green
+}
+
+#skill {
+  background: pink
+}
+
+#education {
+  background: lightblue
+}
+
+#experience {
+  background: orange
+}
+
+#course {
+  background: brown
+}
+
+#contact {
+  background: purple
+}
