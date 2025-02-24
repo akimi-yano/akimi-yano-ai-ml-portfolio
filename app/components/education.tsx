@@ -1,16 +1,16 @@
 export default function Education() {
   return (
-    <div id='education'  className="h-96 p-10">
+    <div id='education'  className="h-200 p-10">
       <div  className='full-container-title scrollspy'>
-        <h2 className={`font-pressStart`}>Education</h2>
-        <p className={`font-pressStart`}>Completed coding bootcamp, 2 masters degrees and bachelors abroad</p>
+        <h2 className={`font-pressStart text-2xl m-5`}>Education</h2>
+        <p className={`font-pressStart text-xl m-5`}>Completed coding bootcamp, 2 masters degrees and bachelors abroad</p>
       </div>
       <div className="full-container">
-        <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/dojo.png'}></img>
+        <div className="m-5">
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/dojo.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Coding Dojo Bootcamp</h5>
             <h6>Computer Software Engineering - Triple Black Belt</h6>
             <h6>San Jose, CA | 2020</h6>
@@ -20,11 +20,11 @@ export default function Education() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/miis.png'}></img>
+        <div className="m-5">
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/miis.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Middlebury Institute of International Studies at Monterey</h5>
             <h6>Master of Public Administration (MPA)</h6>
             <h6>Master in International Trade and Economics</h6>
@@ -32,11 +32,11 @@ export default function Education() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/ritsumeikan.png'}></img>
+        <div className="m-5">
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/ritsumeikan.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Ritsumeikan University</h5>
             <h6>Bachelors in International Relations</h6>
             <h6>Kyoto, Japan | 2014</h6>

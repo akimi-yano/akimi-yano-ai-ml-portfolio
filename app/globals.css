@@ -88,27 +88,30 @@ ul li ul li {
 
 .job_title{
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 5.0vw;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
 }
 
 #about {
-  background: blue
+  background: black
 }
 
 #project {
-  background: green
+  background: black
 }
 
 #skill {
-  background: pink
+  background: black
 }
 
 #education {
-  background: lightblue
+  background: black
 }
 
 #experience {
-  background: orange
+  background: black
 }
 
 #course {
@@ -116,5 +119,5 @@ ul li ul li {
 }
 
 #contact {
-  background: purple
+  background: black
 }

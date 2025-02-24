@@ -1,16 +1,16 @@
 export default function Experience() {
   return (
-    <div id='experience'  className="h-96 p-10">
+    <div id='experience'  className="h-200 p-10">
       <div  className='full-container-title scrollspy'>
-        <h2 className={`font-pressStart`}>Experience</h2>
-        <p className={`font-pressStart`}>Extensive work experience on data analsys</p>
+        <h2 className={`font-pressStart text-2xl m-5`}>Experience</h2>
+        <p className={`font-pressStart text-xl m-5`}>Extensive work experience on data analsys</p>
       </div>
       <div className="full-container">
         <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/finli.jpeg'}></img>
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/finli.jpeg'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Software Engineer Intern</h5>
             <h6>Finli</h6>
             <h6>Sunnyvale, CA | 07/2020 - present</h6>
@@ -19,10 +19,10 @@ export default function Experience() {
           </div>
         </div>
         <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/dojo.png'}></img>
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/dojo.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Software Engineering Teaching Assistant</h5>
             <h6>Coding Dojo</h6>
             <h6>Sunnyvale, CA | 08/2020 - present</h6>
@@ -31,10 +31,10 @@ export default function Experience() {
           </div>
         </div>
         <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/google.png'}></img>
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/google.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Global Compliance, Hardware Technologies</h5>
             <h6>Google, LLC</h6>
             <h6>Sunnyvale, CA | 08/2019 - 01/2020</h6>
@@ -44,10 +44,10 @@ export default function Experience() {
         </div>
 
         <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/huawei.png'}></img>
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/huawei.png'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Global Compliance, Hardware Technologies</h5>
             <h6>Huawei Technologies, Inc.</h6>
             <h6>Santa Clara, CA | 06/2018 - 08/2019</h6>
@@ -58,10 +58,10 @@ export default function Experience() {
         </div>
 
         <div className="row">
-          <div className="col s12 m3 center-align">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/un.svg'}></img>
+          <div className="m-5">
+            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/un.svg'}></img>
           </div>
-          <div className="col s12 m9">
+          <div className="m-5">
             <h5 className={`font-pressStart`}>Consultancy Work</h5>
             <h6>United Nations</h6>
             <h6>Switzerland, Rwanda, Kazakhstan, Japan | 08/2015 - 05/2018</h6>

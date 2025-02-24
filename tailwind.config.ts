@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         pressStart: ["var(--font-pressStart2P)"],
         delaGothic: ["var(--font-delaGothicOne)"],
+        londrinaShadow: ["var(--font-londrinaShadow)"],
       }
     },
   },

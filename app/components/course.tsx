@@ -2,8 +2,8 @@ export default function Course() {
   return (
     <div id='course'  className="h-96 p-10">
       <div className='full-container-title scrollspy'>
-        <h2 className={`font-pressStart`}>Courses</h2>
-        <p className={`font-pressStart`}>Some of the courses I have completed</p>
+        <h2 className={`font-pressStart text-2xl m-5`}>Courses</h2>
+        <p className={`font-pressStart m-5`}>Some of the courses I have completed</p>
       </div>
 
       <div className="full-container">

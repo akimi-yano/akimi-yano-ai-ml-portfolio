@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
-    <footer id='contact'  className="h-96 p-10">
+    <footer id='contact'  className="h-200 p-10">
       <div  className='full-container-title scrollspy'>
-        <h2 className={`font-pressStart`}>Contact Me</h2>
-        <p className={`font-pressStart`}>Please feel free to reach out to me</p>
+        <h2 className={`font-pressStart text-2xl m-5`}>Contact Me</h2>
+        <p className={`font-pressStart m-5`}>Please feel free to reach out to me</p>
       </div>
       <div className='full-container center-align'>
         <div className="row"></div>

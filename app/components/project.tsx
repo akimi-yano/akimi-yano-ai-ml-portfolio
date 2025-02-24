@@ -1,172 +1,114 @@
+import ProjectCard from './ProjectCard'
+
 export default function Project() {
+
+  const sportsClassificationTitle = "Sports Image Classification"
+  const sportsClassificationImagePath = "/assets/sports_classification_image.jpg"
+  const sportsClassificationDesc = "This project creates a machine learning model to classify images into multiple sports categories using TensorFlow/Keras. The number of sports' categories is 73."
+  const sportsClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const sportsClassificationLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const kenyanCuisineClassificationTitle = "Kenyan Cuisine Image Classification"
+  const kenyanCuisineClassificationImagePath = "/assets/KenyanFood13-transformed.png"
+  const kenyanCuisineClassificationDesc = "This project creates a machine learning model that classifies Kenyan cuisines' images into 13 different categories: {0: 'pilau', 1: 'nyamachoma', 2: 'masalachips', 3: 'mandazi', 4: 'ugali', 5: 'sukumawiki', 6: 'mukimo', 7: 'githeri', 8: 'matoke', 9: 'kukuchoma', 10: 'chapati', 11: 'kachumbari', 12: 'bhaji'}."
+  const kenyanCuisineClassificationTags = ["#Pytorch", "#Scikit Learn", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const kenyanCuisineClassificationLinks = ["https://github.com/akimi-yano/Kenyan_Cuisine_Image_Classification"]
+
+  const lungXRayClassificationTitle = "Lung X-Ray Classification"
+  const lungXRayClassificationImagePath = "/assets/Normal-2.png"
+  const lungXRayClassificationDesc = "This project creates a machine learning model that classifies the lung X-Ray images into 3 categories: COVID, Pneumonia, or a healthy lung, using Tensorflow and Keras."
+  const lungXRayClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const lungXRayClassificationLinks = ["https://github.com/akimi-yano/Lung_X-Ray_Classification"]
+
+  const longTermMemoryForLLMTitle = "Long Term Memory & Search Mechanism for Large Language Model (LLM)"
+  const longTermMemoryForLLMImagePath = "/assets/long_term_memory_for_llm.jpg"
+  const longTermMemoryForLLMDesc = "This project creates a machine learning model to classify images into multiple sports categories using TensorFlow/Keras. The number of sports' categories is 73."
+  const longTermMemoryForLLMTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const longTermMemoryForLLMLinks = ["https://github.com/akimi-yano/ReproPaper-MemoryBank-SiliconFriend"]
+
+  const maskDetectionTitle = "(Mask Detection Comparing Different Versions of YOLO)"
+  const maskDetectionImagePath = "/assets/under_construction.jpg"
+  const maskDetectionDesc = "TODO: Upgrade version and push the code."
+  const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const maskDetectionLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const segmentationTFTitle = "(Image Segmentation Project Tensorflow)"
+  const segmentationTFImagePath = "/assets/under_construction.jpg"
+  const segmentationTFDesc = "Add Image Segmentation Project"
+  const segmentationTFTags = ["#Tensorflow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  const segmentationTFLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const segmentationPTTitle = "(Image Segmentation Project Pytorch)"
+  const segmentationPTImagePath = "/assets/under_construction.jpg"
+  const segmentationPTDesc = "Add Image Segmentation Project"
+  const segmentationPTTags = ["#Pytorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  const segmentationPTLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const objectDetectionTFTitle = "(Object Detection Project Tensorflow)"
+  const objectDetectionTFImagePath = "/assets/under_construction.jpg"
+  const objectDetectionTFDesc = "Add Image Segmentation Project"
+  const objectDetectionTFTags = ["#Tensorflow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const objectDetectionTFLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const objectDetectionPTTitle = "(Object Detection Project Pytorch)"
+  const objectDetectionPTImagePath = "/assets/under_construction.jpg"
+  const objectDetectionPTDesc = "Add Image Segmentation Project"
+  const objectDetectionPTTags = ["#Pytorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const objectDetectionPTLinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const genAITitle = "(Generative AI Project)"
+  const genAIImagePath = "/assets/under_construction.jpg"
+  const genAIDesc = "Add Generative AI Project"
+  const genAITags = ["#Generative AI", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const genAILinks = ["https://github.com/akimi-yano/Sports_Image_Classification"]
+
+  const covidForecastTitle = "Coronavirus Forecast Center"
+  const covidForecastImagePath = "/assets/coronavirus.gif"
+  const covidForecastDesc = "World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning."
+  const covidForecastTags = ["#Scikit Learn", "#Machine Learning", "#Artificial Intelligence"]
+  const covidForecastLinks = ["https://www.youtube.com/watch?v=_MbivAzbbWI&ab_channel=AkimiYano", "https://github.com/akimi-yano/coronavirus-prediction"]
+
+  const multilingualVideoChatTitle = "ice candi - Multilingual Video Chat"
+  const multilingualVideoChatImagePath = "/assets/ic.gif"
+  const multilingualVideoChatDesc = "Multilingual peer-to-peer video chat application with live speech-to-text translation."
+  const multilingualVideoChatTags = ["#Translation", "#React", "#Cloud", "#Machine Learning", "#Artificial Intelligence"]
+  const multilingualVideoChatLinks = ["https://www.youtube.com/watch?v=QaJl8ayN62E&ab_channel=AkimiYano", "https://github.com/akimi-yano/multilingual-video-chat"]
+
+  const computerVisionTitle = "Face Labo - Interactive Computer Vision"
+  const computerVisionImagePath = "/assets/facelabo.gif"
+  const computerVisionDesc = "Machine learning / computer vision app counting how often a person blinks or whether they are sleepy from media files."
+  const computerVisionTags = ["#OpenCV", "Python", "Django", "#Machine Learning", "#Artificial Intelligence"]
+  const computerVisionLinks = ["https://www.youtube.com/watch?v=keb4yA6N1Lc&ab_channel=AkimiYano", "https://github.com/akimi-yano/ml_project"]
+
+  const ioTTitle = "Donut Alert with Raspberry Pi"
+  const ioTImagePath = "/assets/donut.gif"
+  const ioTDesc = "Real-time face recognition and text notification system using Raspberry Pi and Intel NCS 2."
+  const ioTTags = ["#Raspberry Pi", "Python", "#Machine Learning", "#Artificial Intelligence"]
+  const ioTLinks = ["https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36", "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano", "https://github.com/akimi-yano/iot_ml_project"]
+
   return (
-    <div id='project'  className="h-96 p-10">
+    <div id='project' className="h-200 p-10">
 
       <div id="projects-title">
-        <h2 className={`font-pressStart`}>Projects</h2>
-        <p >Here are some of the projects I have built.</p>
+        <h2 className={`font-pressStart text-2xl m-5`}>Projects</h2>
+        <p className={`font-pressStart  m-5`}>A selection of my recent work in AI/ ML and fullstack development.</p>
       </div>
 
-      <div id='project_container' >
-        <div style={{ flexWrap: "wrap" }} >
-          <div id='project1'>
-            <h4 className={`font-pressStart`}>Coronavirus Forecast Center</h4>
-          </div>
-          <p>World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning.</p>
-          <ul style={{ padding: "4vh 0" }}>
-            <li>• Built and trained multiple Light Gradient Boosting Model (LGBM) with Python, Pandas, Numpy, Matplotlib, Seaborn, Kaggle dataset, and Jupyter Notebook to generate prediction data over the next 30 days.</li>
-            <li>• Enabled real-time prediction of the spread of the virus by deploying Java backend service using serverless Azure Functions to provide application access.</li>
-            <li>• Demonstrated accuracy of predictions through visual graphical comparison of real vs. predicted data using JavaScript, Mapbox GLJS, and Recharts.</li>
-          </ul>
-          <div >
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Website</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/_MbivAzbbWI' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Video</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/coronavirus-prediction' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">GitHub</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col s12 m6 center-align">
-          <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/coronavirus.gif'} alt='Project GIF' />
-        </div>
-      </div>
-
-      <div className="divider grey darken-1"></div>
-
-      <div style={{ flexWrap: "wrap" }} className="row valign-wrapper">
-        <div className="col s12 m6">
-          <div id='project2' className="scrollspy">
-            <h4 className={`font-pressStart`}>Face Labo - Interactive Computer Vision</h4>
-          </div>
-          <p>Machine learning / computer vision app counting how often a person blinks or whether they are sleepy from media files.</p>
-          <ul style={{ padding: "4vh 0" }}>
-            <li>• Applied computer vision techniques using Python, OpenCV, NumPy and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. with 85% accuracy.</li>
-            <li>• Designed interactive experience with Python and Django web app to display visual alerts and image signaling in response to triggered events, allowing users to experience CV technology through exciting UI output.</li>
-          </ul>
-          <div className='row center-align'>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='http://54.183.232.224/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Website</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/keb4yA6N1Lc' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Video</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/ml_project' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">GitHub</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col s12 m6 center-align">
-          <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/facelabo.gif'} alt='Project GIF' />
-        </div>
-      </div>
-
-      <div className="divider grey darken-1"></div>
-
-      <div style={{ flexWrap: "wrap" }} className="row valign-wrapper">
-        <div className="col s12 m6">
-          <div id='project3' className="scrollspy">
-            <h4 className={`font-pressStart`}>ice candi - Multilingual Video Chat</h4>
-          </div>
-          <p>Multilingual peer-to-peer video chat application with live speech-to-text translation.</p>
-          <ul style={{ padding: "4vh 0" }}>
-            <li>• Delivered seamless video chat experience through implementing WebRTC negotiation mechanism using Firestore database and JavaScript and React web application.</li>
-            <li>• Empowered users to communicate through humanized face-to-face / audial interaction to overcome language barriers using real-time speech-to-text translation between 8 languages powered by Azure Speech Translation.</li>
-          </ul>
-          <div className='row center-align'>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://fir-rtc-bf5c0.web.app/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Website</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/QaJl8ayN62E' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Video</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/multilingual-video-chat' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">GitHub</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col s12 m6 center-align">
-          <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/ic.gif'} alt='Project GIF' />
-        </div>
-      </div>
-
-      <div className="divider grey darken-1"></div>
-
-      <div style={{ flexWrap: "wrap" }} className="row valign-wrapper">
-        <div className="col s12 m6">
-          <div id='project4' className="scrollspy">
-            <h4 className={`font-pressStart`}>Donut Alert with Raspberry Pi</h4>
-          </div>
-          <p>Real-time face recognition and text notification system using Raspberry Pi and  Intel NCS 2.</p>
-          <ul style={{ padding: "4vh 0" }}>
-            <li>• Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model.</li>
-            <li>• Trained and ran face detection/recognition model with Intel’s Movidius Neural Compute Stick 2 to speed up face detection/recognition by 200+%.</li>
-            <li>• Leveraged Twilio and Amazon S3 to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.</li>
-          </ul>
-          <div className='row center-align'>
-            <div className='col s4'>
-              <a className="tooltipped" data-position="bottom" data-tooltip="Medium" href='https://link.medium.com/sdbXPqjL67' target='_blank' rel='noopener noreferrer'>
-                {/* <FontAwesomeIcon icon={['fab', 'medium-m']} size='4x' color='black' /> */}
-                <h6 className="black-text hide-on-large-only">Medium</h6>
-              </a>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=5vqkS9ZKlRo' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">Video</h6>
-            </div>
-            <div className='col s4'>
-              {/* <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/iot_ml_project' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a> */}
-              <h6 className="hide-on-large-only">GitHub</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col s12 m6 center-align">
-          <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/donut.gif'} alt='Donut GIF' />
-        </div>
-      </div>
-
-      <div className="divider grey darken-1"></div>
-
-
-
-      <div className="divider grey darken-1"></div>
-
-      <div style={{ flexWrap: "wrap" }} className="row valign-wrapper">
-        <div className="col s12 m6">
-          <div id='project6' className="scrollspy">
-            <h4 className={`font-pressStart`}>Climbing Training System Analysis</h4>
-          </div>
-          <p>Analyzed data from Moon Board rock climbing training system, and identified the easiest Moon Board problems at each difficulty level using Python</p>
-          <ul style={{ padding: "4vh 0" }}>
-            <li>• Built with Python, Jupyter notebook, Anaconda</li>
-          </ul>
-          <div className='row center-align'>
-            <div className='col s4'>
-              <a className="tooltipped" data-position="bottom" data-tooltip="Report" href='https://drive.google.com/open?id=1npccW930XvvozNk889DIkrJqdSbG1_-4' target='_blank' rel='noopener noreferrer'>
-                {/* <FontAwesomeIcon icon='file-pdf' size='4x' color='black' /> */}
-              </a>
-              <h6 className="hide-on-large-only">Report</h6>
-            </div>
-            <div className='col s4'>
-            </div>
-            <div className='col s4'></div>
-          </div>
-        </div>
-        <div className="col s12 m6 center-align">
-          <img style={{ height: "300px", width: "auto", border: "1px solid gray" }} className="proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
-        </div>
+      <div className="grid grid-cols-3 gap-10 m-5">
+        <ProjectCard projectTitile={sportsClassificationTitle} projectImagePath={sportsClassificationImagePath} projectDesc={sportsClassificationDesc} projectTags={sportsClassificationTags} projectLinks={sportsClassificationLinks} />
+        <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />
+        <ProjectCard projectTitile={lungXRayClassificationTitle} projectImagePath={lungXRayClassificationImagePath} projectDesc={lungXRayClassificationDesc} projectTags={lungXRayClassificationTags} projectLinks={lungXRayClassificationLinks} />
+        <ProjectCard projectTitile={longTermMemoryForLLMTitle} projectImagePath={longTermMemoryForLLMImagePath} projectDesc={longTermMemoryForLLMDesc} projectTags={longTermMemoryForLLMTags} projectLinks={longTermMemoryForLLMLinks} />
+        <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
+        <ProjectCard projectTitile={segmentationTFTitle} projectImagePath={segmentationTFImagePath} projectDesc={segmentationTFDesc} projectTags={segmentationTFTags} projectLinks={segmentationTFLinks} />
+        <ProjectCard projectTitile={segmentationPTTitle} projectImagePath={segmentationPTImagePath} projectDesc={segmentationPTDesc} projectTags={segmentationPTTags} projectLinks={segmentationPTLinks} />
+        <ProjectCard projectTitile={objectDetectionTFTitle} projectImagePath={objectDetectionTFImagePath} projectDesc={objectDetectionTFDesc} projectTags={objectDetectionTFTags} projectLinks={objectDetectionTFLinks} />
+        <ProjectCard projectTitile={objectDetectionPTTitle} projectImagePath={objectDetectionPTImagePath} projectDesc={objectDetectionPTDesc} projectTags={objectDetectionPTTags} projectLinks={objectDetectionPTLinks} />
+        <ProjectCard projectTitile={genAITitle} projectImagePath={genAIImagePath} projectDesc={genAIDesc} projectTags={genAITags} projectLinks={genAILinks} />
+        <ProjectCard projectTitile={covidForecastTitle} projectImagePath={covidForecastImagePath} projectDesc={covidForecastDesc} projectTags={covidForecastTags} projectLinks={covidForecastLinks} />
+        <ProjectCard projectTitile={multilingualVideoChatTitle} projectImagePath={multilingualVideoChatImagePath} projectDesc={multilingualVideoChatDesc} projectTags={multilingualVideoChatTags} projectLinks={multilingualVideoChatLinks} />
+        <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />
+        <ProjectCard projectTitile={ioTTitle} projectImagePath={ioTImagePath} projectDesc={ioTDesc} projectTags={ioTTags} projectLinks={ioTLinks} />
       </div>
 
     </div >

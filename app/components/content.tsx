@@ -13,14 +13,13 @@ import Project from './project'
 import Contact from './contact'
 import Education from './education'
 import Experience from './experience'
-import Course from  './course'
 import Blog from './blog'
 
 export default function Content() {
   return (
     <div>
-      {/* <NavBar/>
-      <MobileNav/> */}
+      <NavBar/>
+      {/* <MobileNav/> */}
 
       <Banner/>
       <About/>
@@ -29,13 +28,12 @@ export default function Content() {
       <About3/>
       {/* <About4/>
       <About5/> */}
-      {/* <Project/>
+      <Project/>
       <Skill/>
       <Education/>    
       <Experience/>
-      <Course/>
-      <Blog/>
-      <Contact/> */}
+      {/* <Blog/> */}
+      <Contact/>
     </div>
   );
 }

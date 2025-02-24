@@ -419,6 +419,14 @@ img, video {
   position: fixed;
 }
 
+.m-1 {
+  margin: .25rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -447,6 +455,11 @@ img, video {
   display: grid;
 }
 
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -467,6 +480,10 @@ img, video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
@@ -483,12 +500,24 @@ img, video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
 
 .gap-1 {
   gap: .25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-lg {
@@ -514,8 +543,17 @@ img, video {
   background-color: rgb(71 85 105 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
+}
+
 .bg-transparent {
   background-color: #0000;
+}
+
+.p-1 {
+  padding: .25rem;
 }
 
 .p-10 {
@@ -536,9 +574,23 @@ img, video {
   font-family: var(--font-pressStart2P);
 }
 
+.font-londrinaShadow {
+  font-family: var(--font-londrinaShadow);
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -546,8 +598,17 @@ img, video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-gray-500 {
@@ -671,27 +732,30 @@ ul li ul li {
 
 .job_title {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 #about {
-  background: #00f;
+  background: #000;
 }
 
 #project {
-  background: green;
+  background: #000;
 }
 
 #skill {
-  background: pink;
+  background: #000;
 }
 
 #education {
-  background: #add8e6;
+  background: #000;
 }
 
 #experience {
-  background: orange;
+  background: #000;
 }
 
 #course {
@@ -699,7 +763,7 @@ ul li ul li {
 }
 
 #contact {
-  background: purple;
+  background: #000;
 }
 
 .hover\:bg-gray-100:hover {

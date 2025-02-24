@@ -1,0 +1,30 @@
+/* [next]/internal/font/google/londrina_shadow_372edbea.module.css [app-client] (css) */
+@font-face {
+  font-family: Londrina Shadow;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/_next/static/media/oPWX_kB4kOQoWNJmjxLV5JuoCUlnQVyT5EncCA-s.p.d092d03b.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Londrina Shadow Fallback;
+  src: local(Arial);
+  ascent-override: 110.0%;
+  descent-override: 27.7%;
+  line-gap-override: 0.0%;
+  size-adjust: 85.91%;
+}
+
+.londrina_shadow_372edbea-module__VxRUqq__className {
+  font-family: Londrina Shadow, Londrina Shadow Fallback;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.londrina_shadow_372edbea-module__VxRUqq__variable {
+  --font-londrinaShadow: "Londrina Shadow", "Londrina Shadow Fallback";
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_londrina_shadow_372edbea_module_b52d8e.css.map*/
