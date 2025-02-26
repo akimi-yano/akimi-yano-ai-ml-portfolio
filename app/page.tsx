@@ -24,7 +24,7 @@ const londrinaShadow = Londrina_Shadow({
 
 export default function Home() {
   return (
-    <div className={`${pressStart2PRegular.variable} ${londrinaShadow.variable}`}>
+    <div className={`${pressStart2PRegular.variable} ${londrinaShadow.variable} ${delaGothicOne.variable}`}>
     <Content/>
     </div>
   );

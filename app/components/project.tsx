@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard'
+import ProjectCard from './projectCard'
 
 export default function Project() {
 
@@ -99,12 +99,12 @@ export default function Project() {
         <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />
         <ProjectCard projectTitile={lungXRayClassificationTitle} projectImagePath={lungXRayClassificationImagePath} projectDesc={lungXRayClassificationDesc} projectTags={lungXRayClassificationTags} projectLinks={lungXRayClassificationLinks} />
         <ProjectCard projectTitile={longTermMemoryForLLMTitle} projectImagePath={longTermMemoryForLLMImagePath} projectDesc={longTermMemoryForLLMDesc} projectTags={longTermMemoryForLLMTags} projectLinks={longTermMemoryForLLMLinks} />
-        <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
+        {/* <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
         <ProjectCard projectTitile={segmentationTFTitle} projectImagePath={segmentationTFImagePath} projectDesc={segmentationTFDesc} projectTags={segmentationTFTags} projectLinks={segmentationTFLinks} />
         <ProjectCard projectTitile={segmentationPTTitle} projectImagePath={segmentationPTImagePath} projectDesc={segmentationPTDesc} projectTags={segmentationPTTags} projectLinks={segmentationPTLinks} />
         <ProjectCard projectTitile={objectDetectionTFTitle} projectImagePath={objectDetectionTFImagePath} projectDesc={objectDetectionTFDesc} projectTags={objectDetectionTFTags} projectLinks={objectDetectionTFLinks} />
         <ProjectCard projectTitile={objectDetectionPTTitle} projectImagePath={objectDetectionPTImagePath} projectDesc={objectDetectionPTDesc} projectTags={objectDetectionPTTags} projectLinks={objectDetectionPTLinks} />
-        <ProjectCard projectTitile={genAITitle} projectImagePath={genAIImagePath} projectDesc={genAIDesc} projectTags={genAITags} projectLinks={genAILinks} />
+        <ProjectCard projectTitile={genAITitle} projectImagePath={genAIImagePath} projectDesc={genAIDesc} projectTags={genAITags} projectLinks={genAILinks} /> */}
         <ProjectCard projectTitile={covidForecastTitle} projectImagePath={covidForecastImagePath} projectDesc={covidForecastDesc} projectTags={covidForecastTags} projectLinks={covidForecastLinks} />
         <ProjectCard projectTitile={multilingualVideoChatTitle} projectImagePath={multilingualVideoChatImagePath} projectDesc={multilingualVideoChatDesc} projectTags={multilingualVideoChatTags} projectLinks={multilingualVideoChatLinks} />
         <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />

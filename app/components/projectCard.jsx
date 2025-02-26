@@ -1,4 +1,4 @@
-import LinkIcon from './icons/LinkIcon'
+import LinkIcon from './icons/linkIcon'
 
 export default function ProjectCard({ projectTitile, projectImagePath, projectDesc, projectTags, projectLinks, ...props }) {
 
