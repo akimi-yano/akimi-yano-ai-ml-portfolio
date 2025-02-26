@@ -95,27 +95,35 @@ ul li ul li {
 }
 
 #about {
+  background: white
+}
+
+#about1 {
+  background: black
+}
+
+#about2 {
+  background: white
+}
+
+#about3 {
   background: black
 }
 
 #project {
-  background: black
+  background: white
 }
 
 #skill {
-  background: black
+  background: white
 }
 
 #education {
-  background: black
+  background: white
 }
 
 #experience {
-  background: black
-}
-
-#course {
-  background: brown
+  background: white
 }
 
 #contact {

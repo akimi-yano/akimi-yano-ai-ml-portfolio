@@ -87,7 +87,7 @@ export default function Project() {
   const ioTLinks = ["https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36", "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano", "https://github.com/akimi-yano/iot_ml_project"]
 
   return (
-    <div id='project' className="h-200 p-10">
+    <div id='project' className="h-200 p-10 text-black">
 
       <div id="projects-title">
         <h2 className={`font-pressStart text-2xl m-5`}>Projects</h2>

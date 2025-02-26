@@ -1,6 +1,6 @@
 export default function Skill() {
     return (
-        <div id='skill' className="h-200 p-10">
+        <div id='skill' className="h-200 p-10 text-black">
             <div>
                 <h2 className={`font-pressStart text-2xl m-5`}>Skills</h2>
                 <p className={`font-pressStart text-xl m-5`}>Some of my skills to highlight:</p>

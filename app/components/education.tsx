@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div id='education'  className="h-200 p-10">
+    <div id='education'  className="h-200 p-10 text-black">
       <div  className='full-container-title scrollspy'>
         <h2 className={`font-pressStart text-2xl m-5`}>Education</h2>
         <p className={`font-pressStart text-xl m-5`}>Completed coding bootcamp, 2 masters degrees and bachelors abroad</p>

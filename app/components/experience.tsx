@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div id='experience'  className="h-200 p-10">
+    <div id='experience'  className="h-200 p-10 text-black">
       <div  className='full-container-title scrollspy'>
         <h2 className={`font-pressStart text-2xl m-5`}>Experience</h2>
         <p className={`font-pressStart text-xl m-5`}>Extensive work experience on data analsys</p>
