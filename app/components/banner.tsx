@@ -13,7 +13,7 @@ export default function Banner() {
                         <img className='profile_img items-center' src="/assets/profile_img.jpg" alt="Profile Image" />
                     </div>
                     <div className="flex items-center h-96">
-                        <h1 className={`delaGothicOne flex items-center japanese_quote`}>『みんながびっくりするようなテクノロジーでときめきを届けたい。』</h1>
+                        <h1 className={`font-dotGothic16 flex items-center japanese_quote`}>『みんながびっくりするようなテクノロジーでときめきを届けたい。』</h1>
                     </div>
                 </div>
                 <div className="flex justify-center h-96">
