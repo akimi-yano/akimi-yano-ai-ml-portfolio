@@ -1,10 +1,38 @@
 export default function Skill() {
+    const skills = {
+        "Programming Languages": ["Python", "JavaScript", "C++"],
+        "Frameworks & Libraries": ["React", "Next.js", "TensorFlow", "PyTorch"],
+        "Tools": ["Git", "Docker", "Linux", "PostgreSQL"],
+        "Machine Learning": ["Scikit-Learn", "YOLO", "Transformers"],
+    };
+
     return (
         <div id='skill' className="h-200 p-10 text-black font-pressStart">
             <div>
                 <h2 className={`font-pressStart text-2xl m-5`}>Skills</h2>
                 <p className={`font-pressStart text-xl m-5`}>Some of my skills to highlight:</p>
             </div>
+
+            <section className="py-12 bg-gray-100">
+                <div className="max-w-4xl mx-auto px-6">
+                    <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {Object.entries(skills).map(([category, items]) => (
+                            <div key={category} className="bg-white shadow-lg p-6 rounded-xl">
+                                <h3 className="text-xl font-semibold mb-4 text-gray-800">{category}</h3>
+                                <ul className="space-y-2">
+                                    {items.map((skill) => (
+                                        <li key={skill} className="text-gray-600 bg-gray-200 px-3 py-1 rounded-md text-sm inline-block">
+                                            {skill}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
 
             <div className={`m-10`}>
                 <div>

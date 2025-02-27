@@ -87,30 +87,33 @@ export default function Project() {
   const ioTLinks = ["https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36", "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano", "https://github.com/akimi-yano/iot_ml_project"]
 
   return (
-    <div id='project' className="h-200 p-10 text-black font-pressStart">
+    <div id='project' className="p-10 font-pressStart">
 
-      <div id="projects-title">
+      <div id="projects-title" className="text-black">
         <h2 className={`font-pressStart text-2xl m-5`}>Projects</h2>
         <p className={`font-pressStart  m-5`}>A selection of my recent work in AI/ ML and fullstack development.</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-10 m-5">
-        <ProjectCard projectTitile={sportsClassificationTitle} projectImagePath={sportsClassificationImagePath} projectDesc={sportsClassificationDesc} projectTags={sportsClassificationTags} projectLinks={sportsClassificationLinks} />
-        <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />
-        <ProjectCard projectTitile={lungXRayClassificationTitle} projectImagePath={lungXRayClassificationImagePath} projectDesc={lungXRayClassificationDesc} projectTags={lungXRayClassificationTags} projectLinks={lungXRayClassificationLinks} />
-        <ProjectCard projectTitile={longTermMemoryForLLMTitle} projectImagePath={longTermMemoryForLLMImagePath} projectDesc={longTermMemoryForLLMDesc} projectTags={longTermMemoryForLLMTags} projectLinks={longTermMemoryForLLMLinks} />
-        {/* <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
+      {/* <div className="min-h-screen p-12 bg-gray-50 dark:bg-gray-900">
+        <div className="container px-6 md:px-12"> */}
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+            <ProjectCard projectTitile={sportsClassificationTitle} projectImagePath={sportsClassificationImagePath} projectDesc={sportsClassificationDesc} projectTags={sportsClassificationTags} projectLinks={sportsClassificationLinks} />
+            <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />
+            <ProjectCard projectTitile={lungXRayClassificationTitle} projectImagePath={lungXRayClassificationImagePath} projectDesc={lungXRayClassificationDesc} projectTags={lungXRayClassificationTags} projectLinks={lungXRayClassificationLinks} />
+            <ProjectCard projectTitile={longTermMemoryForLLMTitle} projectImagePath={longTermMemoryForLLMImagePath} projectDesc={longTermMemoryForLLMDesc} projectTags={longTermMemoryForLLMTags} projectLinks={longTermMemoryForLLMLinks} />
+            {/* <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
         <ProjectCard projectTitile={segmentationTFTitle} projectImagePath={segmentationTFImagePath} projectDesc={segmentationTFDesc} projectTags={segmentationTFTags} projectLinks={segmentationTFLinks} />
         <ProjectCard projectTitile={segmentationPTTitle} projectImagePath={segmentationPTImagePath} projectDesc={segmentationPTDesc} projectTags={segmentationPTTags} projectLinks={segmentationPTLinks} />
         <ProjectCard projectTitile={objectDetectionTFTitle} projectImagePath={objectDetectionTFImagePath} projectDesc={objectDetectionTFDesc} projectTags={objectDetectionTFTags} projectLinks={objectDetectionTFLinks} />
         <ProjectCard projectTitile={objectDetectionPTTitle} projectImagePath={objectDetectionPTImagePath} projectDesc={objectDetectionPTDesc} projectTags={objectDetectionPTTags} projectLinks={objectDetectionPTLinks} />
         <ProjectCard projectTitile={genAITitle} projectImagePath={genAIImagePath} projectDesc={genAIDesc} projectTags={genAITags} projectLinks={genAILinks} /> */}
-        <ProjectCard projectTitile={covidForecastTitle} projectImagePath={covidForecastImagePath} projectDesc={covidForecastDesc} projectTags={covidForecastTags} projectLinks={covidForecastLinks} />
-        <ProjectCard projectTitile={multilingualVideoChatTitle} projectImagePath={multilingualVideoChatImagePath} projectDesc={multilingualVideoChatDesc} projectTags={multilingualVideoChatTags} projectLinks={multilingualVideoChatLinks} />
-        <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />
-        <ProjectCard projectTitile={ioTTitle} projectImagePath={ioTImagePath} projectDesc={ioTDesc} projectTags={ioTTags} projectLinks={ioTLinks} />
-      </div>
-
+            <ProjectCard projectTitile={covidForecastTitle} projectImagePath={covidForecastImagePath} projectDesc={covidForecastDesc} projectTags={covidForecastTags} projectLinks={covidForecastLinks} />
+            <ProjectCard projectTitile={multilingualVideoChatTitle} projectImagePath={multilingualVideoChatImagePath} projectDesc={multilingualVideoChatDesc} projectTags={multilingualVideoChatTags} projectLinks={multilingualVideoChatLinks} />
+            <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />
+            <ProjectCard projectTitile={ioTTitle} projectImagePath={ioTImagePath} projectDesc={ioTDesc} projectTags={ioTTags} projectLinks={ioTLinks} />
+          </div>
+        {/* </div>
+      </div> */}
     </div >
   );
 }
