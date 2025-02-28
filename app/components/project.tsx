@@ -4,25 +4,48 @@ export default function Project() {
 
   const sportsClassificationTitle = "Sports Image Classification"
   const sportsClassificationImagePath = "/assets/sports_classification_image.jpg"
-  const sportsClassificationDesc = "This project creates a machine learning model to classify images into multiple sports categories using TensorFlow/Keras. The number of sports' categories is 73."
+  const sportsClassificationDesc = (
+    <>
+      This project creates a machine learning model to classify images into multiple sports categories using{" "}
+      <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports' categories is 73. The model obtained an accuracy score of 0.91921 on a test set.
+    </>
+  );
   const sportsClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const sportsClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
   const kenyanCuisineClassificationTitle = "Kenyan Cuisine Image Classification"
   const kenyanCuisineClassificationImagePath = "/assets/KenyanFood13-transformed.png"
-  const kenyanCuisineClassificationDesc = "This project creates a machine learning model that classifies Kenyan cuisines' images into 13 different categories: {0: 'pilau', 1: 'nyamachoma', 2: 'masalachips', 3: 'mandazi', 4: 'ugali', 5: 'sukumawiki', 6: 'mukimo', 7: 'githeri', 8: 'matoke', 9: 'kukuchoma', 10: 'chapati', 11: 'kachumbari', 12: 'bhaji'}."
+  const kenyanCuisineClassificationDesc = (
+    <>
+      This project creates a machine learning model that classifies Kenyan cuisines' images into 13 different categories using {" "}
+      <span style={{ color: "lightblue" }}>Pytorch</span>. The model obtained an accuracy score of 0.80801 on a test set.
+    </>
+  );
   const kenyanCuisineClassificationTags = ["#Pytorch", "#Scikit Learn", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const kenyanCuisineClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Kenyan_Cuisine_Image_Classification" }]
 
   const lungXRayClassificationTitle = "Lung X-Ray Classification"
   const lungXRayClassificationImagePath = "/assets/Normal-2.png"
-  const lungXRayClassificationDesc = "This project creates a machine learning model that classifies the lung X-Ray images into 3 categories: COVID, Pneumonia, or a healthy lung, using Tensorflow and Keras."
+
+  const lungXRayClassificationDesc = (
+    <>
+      This project creates a machine learning model that classifies the lung X-Ray images into 3 categories: COVID, Pneumonia, or a healthy lung, using {" "}
+      <span style={{ color: "green" }}>Tensorflow and Keras</span>. The model achieved the Training Accuracy of 0.9561 and the Validation Accuracy of 0.9241.
+
+    </>
+  );
   const lungXRayClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const lungXRayClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Lung_X-Ray_Classification" }]
 
   const longTermMemoryForLLMTitle = "Long Term Memory & Search Mechanism for Large Language Model (LLM)"
   const longTermMemoryForLLMImagePath = "/assets/long_term_memory_for_llm.jpg"
-  const longTermMemoryForLLMDesc = "This project creates a machine learning model to classify images into multiple sports categories using TensorFlow/Keras. The number of sports' categories is 73."
+  const longTermMemoryForLLMDesc = (
+    <>
+      I read the research paper and source code for MemoryBank: Enhancing Large Language Models with Long-Term Memory and implemented the Memory Retrieval Mechanism discussed in the paper.
+      For the Large Language Model (LLM), I utilized {" "}<span style={{ color: "yellow" }}>GPT-3.5 Turbo</span>, and for the Retrieval-Augmented Generation (RAG), I used {" "}
+      <span style={{ color: "yellow" }}>LlamaIndex</span> and the {" "}<span style={{ color: "yellow" }}>text-embedding-ada model</span>. I was able to verify that the Memory Retrieval Mechanism worked, and that the LLM assistant remembered our past converstations.
+    </>
+  );
   const longTermMemoryForLLMTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const longTermMemoryForLLMLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/ReproPaper-MemoryBank-SiliconFriend" }]
 
@@ -64,25 +87,42 @@ export default function Project() {
 
   const covidForecastTitle = "Coronavirus Forecast Center"
   const covidForecastImagePath = "/assets/coronavirus.gif"
-  const covidForecastDesc = "World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning."
+  const covidForecastDesc = (
+    <>
+      Built the end-to-end web app with a World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning. I built the prediction model using {" "}<span style={{ color: "orange" }}>LGBM model</span> and backend API in {" "}<span style={{ color: "orange" }}>Java</span> and frontend in {" "}<span style={{ color: "orange" }}>JavaScript with React</span>.
+    </>
+  )
   const covidForecastTags = ["#Scikit Learn", "#Machine Learning", "#Artificial Intelligence"]
-  const covidForecastLinks = [{ "type": "youtube", "url": "https://www.youtube.com/watch?v=_MbivAzbbWI&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/coronavirus-prediction" }]
+  const covidForecastLinks = [{ "type": "website", "url": "https://akimi-yano.github.io/coronavirus-prediction/#/about" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=_MbivAzbbWI&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/coronavirus-prediction" }]
 
   const multilingualVideoChatTitle = "ice candi - Multilingual Video Chat"
   const multilingualVideoChatImagePath = "/assets/ic.gif"
-  const multilingualVideoChatDesc = "Multilingual peer-to-peer video chat application with live speech-to-text translation."
+  const multilingualVideoChatDesc = (
+    <>
+      Multilingual peer-to-peer video chat application with live speech-to-text translation. Delivered a seamless video chat experience by implementing {" "}<span style={{ color: "purple" }}>WebRTC</span> negotiation mechanism using the {" "}<span style={{ color: "purple" }}>Firestore database</span>and  {" "}<span style={{ color: "purple" }}>React</span> React web app.
+      Empowered users to communicate through a humanized face-to-face/ audial interaction and overcome language barriers using real-time speech-to-text translation between  {" "}<span style={{ color: "purple" }}>8 languages </span>powered by {" "}<span style={{ color: "purple" }}>Azure Speech Translation API</span>.
+    </>
+  )
   const multilingualVideoChatTags = ["#Translation", "#React", "#Cloud", "#Machine Learning", "#Artificial Intelligence"]
-  const multilingualVideoChatLinks = [{ "type": "youtube", "url": "https://www.youtube.com/watch?v=QaJl8ayN62E&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/multilingual-video-chat" }]
+  const multilingualVideoChatLinks = [{ "type": "website", "url": "https://fir-rtc-bf5c0.web.app/" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=QaJl8ayN62E&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/multilingual-video-chat" }]
 
   const computerVisionTitle = "Face Labo - Interactive Computer Vision"
   const computerVisionImagePath = "/assets/facelabo.gif"
-  const computerVisionDesc = "Machine learning / computer vision app counting how often a person blinks or whether they are sleepy from media files."
+  const computerVisionDesc = (
+  <>
+  Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "red" }}>OpenCV</span> and {" "}<span style={{ color: "red" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "red" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
+  </>
+  )
   const computerVisionTags = ["#OpenCV", "Python", "Django", "#Machine Learning", "#Artificial Intelligence"]
-  const computerVisionLinks = [{ "type": "youtube", "url": "https://www.youtube.com/watch?v=keb4yA6N1Lc&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/ml_project" }]
+  const computerVisionLinks = [{ "type": "website", "url": "http://54.183.232.224/" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=keb4yA6N1Lc&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/ml_project" }]
 
   const ioTTitle = "Donut Alert with Raspberry Pi"
   const ioTImagePath = "/assets/donut.gif"
-  const ioTDesc = "Real-time face recognition and text notification system using Raspberry Pi and Intel NCS 2."
+  const ioTDesc = (
+  <>
+  Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel’s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.
+  </>
+  )
   const ioTTags = ["#Raspberry Pi", "Python", "#Machine Learning", "#Artificial Intelligence"]
   const ioTLinks = [{ "type": "medium", "url": "https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/iot_ml_project" }]
 

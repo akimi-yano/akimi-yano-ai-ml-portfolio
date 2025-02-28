@@ -18,22 +18,33 @@ import Blog from './blog'
 export default function Content() {
   return (
     <div>
-      <NavBar/>
-      {/* <MobileNav/> */}
+      <NavBar />
+      {/* <MobileNav /> */}
 
-      <Banner/>
-      <About/>
-      <About1/>
-      <About2/>
-      <About3/>
+      <Banner />
+      <About />
+      <About1 />
+      <About2 />
+      <About3 />
       {/* <About4/>
       <About5/> */}
-      <Project/>
-      <Skill/>
-      <Experience/>
-      <Education/>    
+      <Project />
+      <Skill />
+      <Experience />
+      {/* <div className="border-5 border-black border-dashed"></div> */}
+      <div className="border border-gray-500 p-1"></div>
+
+      {/* <div
+        className="relative h-screen bg-fixed bg-center bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('/assets/miis.png')" }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+          <h1 className="text-xl text-white font-bold">Parallax Effect</h1>
+        </div>
+      </div> */}
+      <Education />
       {/* <Blog/> */}
-      <Contact/>
+      <Contact />
     </div>
   );
 }

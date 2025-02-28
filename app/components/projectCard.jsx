@@ -1,7 +1,7 @@
 // import LinkIcon from './icons/linkIcon'
 import GitHubIcon from './icons/gitHubIcon'
 import YoutubeIcon from './icons/youtubeIcon'
-// import OpenExternalLinkIcon from './icons/openExternalLinkIcon'
+import OpenExternalLinkIcon from './icons/openExternalLinkIcon'
 import PublicationIcon from './icons/publicationIcon'
 
 export default function ProjectCard({ projectTitile, projectImagePath, projectDesc, projectTags, projectLinks, ...props }) {
@@ -32,7 +32,9 @@ export default function ProjectCard({ projectTitile, projectImagePath, projectDe
                         projectLink.type === "github" ? (
                             <div key={linkIndex} className="m-2"><a href={projectLink.url} target="_blank"><GitHubIcon /></a></div>) : projectLink.type === "youtube" ? (
                                 <div key={linkIndex} className="m-2"><a href={projectLink.url} target="_blank"><YoutubeIcon /></a></div>) : projectLink.type === "medium" ? (
-                                    <div key={linkIndex} className="m-2"><a href={projectLink.url} target="_blank"><PublicationIcon /></a></div>) : <></>
+                                    <div key={linkIndex} className="m-2"><a href={projectLink.url} target="_blank"><PublicationIcon /></a></div>) : projectLink.type === "website" ? (
+                                        <div key={linkIndex} className="m-2"><a href={projectLink.url} target="_blank"><OpenExternalLinkIcon /></a></div>
+                                    ) : <></>
                     ))}
                 </div>
             </div>
