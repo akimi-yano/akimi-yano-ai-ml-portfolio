@@ -11,7 +11,7 @@ export default function Experience() {
       <div className="flex flex-col">
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'} alt='Microsoft'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/microsoft.png'} alt='Microsoft'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -27,7 +27,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'} alt='Microsoft Leap'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/microsoft.png'} alt='Microsoft Leap'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -40,7 +40,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/curious_five.png'} alt='Curious Five'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/curious_five.png'} alt='Curious Five'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -52,7 +52,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/just_one_penny.jpeg'} alt='JustOnePenny'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/just_one_penny.jpeg'} alt='JustOnePenny'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -64,7 +64,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/finli.jpeg'} alt='Finli'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/finli.jpeg'} alt='Finli'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer Intern</h5>
@@ -77,7 +77,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/dojo.png'} alt='Coding Dojo'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/dojo.png'} alt='Coding Dojo'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineering Teaching Assistant</h5>
@@ -90,7 +90,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/google.png'} alt='Google'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/google.png'} alt='Google'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Global Compliance, Hardware Technologies</h5>
@@ -103,7 +103,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/huawei.png'} alt='Huawei'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/huawei.png'} alt='Huawei'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Global Compliance, Hardware Technologies</h5>
@@ -116,7 +116,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/un.svg'} alt='The UN'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/un.svg'} alt='The UN'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Consultancy Work</h5>

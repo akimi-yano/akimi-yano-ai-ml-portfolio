@@ -10,7 +10,7 @@ export default function Education() {
       <div className="full-container">
         <div className="m-5">
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/dojo.png'} alt='Coding Dojo'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/dojo.png'} alt='Coding Dojo'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Coding Dojo Bootcamp</h5>
@@ -24,7 +24,7 @@ export default function Education() {
 
         <div className="m-5">
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/miis.png'} alt='Graduate School'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/miis.png'} alt='Graduate School'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Middlebury Institute of International Studies at Monterey</h5>
@@ -36,7 +36,7 @@ export default function Education() {
 
         <div className="m-5">
           <div className="m-5">
-            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/ritsumeikan.png'} alt='University'></Image>
+            <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/ritsumeikan.png'} alt='University'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Ritsumeikan University</h5>

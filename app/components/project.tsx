@@ -3,7 +3,7 @@ import ProjectCard from './projectCard'
 export default function Project() {
 
   const sportsClassificationTitle = "Sports Image Classification"
-  const sportsClassificationImagePath = "/assets/sports_classification_image.jpg"
+  const sportsClassificationImagePath = "assets/sports_classification_image.jpg"
   const sportsClassificationDesc = (
     <>
       This project creates a machine learning model to classify images into multiple sports categories using{" "}
@@ -14,7 +14,7 @@ export default function Project() {
   const sportsClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
   const kenyanCuisineClassificationTitle = "Kenyan Cuisine Image Classification"
-  const kenyanCuisineClassificationImagePath = "/assets/KenyanFood13-transformed.png"
+  const kenyanCuisineClassificationImagePath = "assets/KenyanFood13-transformed.png"
   const kenyanCuisineClassificationDesc = (
     <>
       This project creates a machine learning model that classifies Kenyan cuisines&apos; images into 13 different categories using {" "}
@@ -25,7 +25,7 @@ export default function Project() {
   const kenyanCuisineClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Kenyan_Cuisine_Image_Classification" }]
 
   const lungXRayClassificationTitle = "Lung X-Ray Classification"
-  const lungXRayClassificationImagePath = "/assets/Normal-2.png"
+  const lungXRayClassificationImagePath = "assets/Normal-2.png"
 
   const lungXRayClassificationDesc = (
     <>
@@ -38,7 +38,7 @@ export default function Project() {
   const lungXRayClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Lung_X-Ray_Classification" }]
 
   const longTermMemoryForLLMTitle = "Long Term Memory & Search Mechanism for Large Language Model (LLM)"
-  const longTermMemoryForLLMImagePath = "/assets/long_term_memory_for_llm.jpg"
+  const longTermMemoryForLLMImagePath = "assets/long_term_memory_for_llm.jpg"
   const longTermMemoryForLLMDesc = (
     <>
       I read the research paper and source code for MemoryBank: Enhancing Large Language Models with Long-Term Memory and implemented the Memory Retrieval Mechanism discussed in the paper.
@@ -86,7 +86,7 @@ export default function Project() {
   // const genAILinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
   const covidForecastTitle = "Coronavirus Forecast Center"
-  const covidForecastImagePath = "/assets/coronavirus.gif"
+  const covidForecastImagePath = "assets/coronavirus.gif"
   const covidForecastDesc = (
     <>
       Built the end-to-end web app with a World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning. I built the prediction model using {" "}<span style={{ color: "orange" }}>LGBM model</span> and backend API in {" "}<span style={{ color: "orange" }}>Java</span> and frontend in {" "}<span style={{ color: "orange" }}>JavaScript with React</span>.
@@ -96,7 +96,7 @@ export default function Project() {
   const covidForecastLinks = [{ "type": "website", "url": "https://akimi-yano.github.io/coronavirus-prediction/#/about" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=_MbivAzbbWI&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/coronavirus-prediction" }]
 
   const multilingualVideoChatTitle = "ice candi - Multilingual Video Chat"
-  const multilingualVideoChatImagePath = "/assets/ic.gif"
+  const multilingualVideoChatImagePath = "assets/ic.gif"
   const multilingualVideoChatDesc = (
     <>
       Multilingual peer-to-peer video chat application with live speech-to-text translation. Delivered a seamless video chat experience by implementing {" "}<span style={{ color: "purple" }}>WebRTC</span> negotiation mechanism using the {" "}<span style={{ color: "purple" }}>Firestore database</span>and  {" "}<span style={{ color: "purple" }}>React</span> React web app.
@@ -107,7 +107,7 @@ export default function Project() {
   const multilingualVideoChatLinks = [{ "type": "website", "url": "https://fir-rtc-bf5c0.web.app/" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=QaJl8ayN62E&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/multilingual-video-chat" }]
 
   const computerVisionTitle = "Face Labo - Interactive Computer Vision"
-  const computerVisionImagePath = "/assets/facelabo.gif"
+  const computerVisionImagePath = "assets/facelabo.gif"
   const computerVisionDesc = (
   <>
   Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "red" }}>OpenCV</span> and {" "}<span style={{ color: "red" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "red" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
@@ -117,7 +117,7 @@ export default function Project() {
   const computerVisionLinks = [{ "type": "website", "url": "http://54.183.232.224/" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=keb4yA6N1Lc&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/ml_project" }]
 
   const ioTTitle = "Donut Alert with Raspberry Pi"
-  const ioTImagePath = "/assets/donut.gif"
+  const ioTImagePath = "assets/donut.gif"
   const ioTDesc = (
   <>
   Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel&apos;s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.

@@ -36,7 +36,7 @@ export default function Content() {
 
       {/* <div
         className="relative h-screen bg-fixed bg-center bg-cover bg-no-repeat"
-        style={{ backgroundImage: "url('/assets/miis.png')" }}
+        style={{ backgroundImage: "url('assets/miis.png')" }}
       >
         <div className="absolute inset-0 flex items-center justify-center bg-black/20">
           <h1 className="text-xl text-white font-bold">Parallax Effect</h1>
