@@ -3,6 +3,8 @@ import Image from 'next/image'
 export default function Banner() {
     return (
         <div id='banner' className="flex justify-around">
+            <div className="relative h-screen bg-fixed bg-center bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('assets/banner_background.svg')" }}>
             <div className="grid-flow-col grid-rows-2 gap-1">
                 <div className="grid grid-flow-col grid-rows-1 grid-cols-3 gap-1">
                     <div className="flex items-center h-96">
@@ -19,6 +21,7 @@ export default function Banner() {
                     <h1 className={`font-londrinaShadow job_title`}>Artificial Intelligence / Machine Learning Software Enginner</h1>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
