@@ -30,8 +30,8 @@ export default function Content() {
       <About5/> */}
       <Project/>
       <Skill/>
-      <Education/>    
       <Experience/>
+      <Education/>    
       {/* <Blog/> */}
       <Contact/>
     </div>
