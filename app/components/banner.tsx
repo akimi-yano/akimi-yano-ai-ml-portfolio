@@ -1,5 +1,4 @@
-// import { Dela_Gothic_One, Londrina_Shadow } from "next/font/google";
-// import Button from './button'
+import Image from 'next/image'
 
 export default function Banner() {
     return (
@@ -7,10 +6,10 @@ export default function Banner() {
             <div className="grid-flow-col grid-rows-2 gap-1">
                 <div className="grid grid-flow-col grid-rows-1 grid-cols-3 gap-1">
                     <div className="flex items-center h-96">
-                        <h1 className={`font-pressStart english_quote`}>"I want to bring people sparking joy through the power of mind-blowing technology."</h1>
+                        <h1 className={`font-pressStart english_quote`}>&quot;I want to bring people sparking joy through the power of mind-blowing technology.&quot;</h1>
                     </div >
                     <div className="flex items-center h-96">
-                        <img className='profile_img items-center' src="/assets/profile_img.jpg" alt="Profile Image" />
+                        <Image className='profile_img items-center' src="/assets/profile_img.jpg" alt="Profile Image" />
                     </div>
                     <div className="flex items-center h-96">
                         <h1 className={`font-dotGothic16 flex items-center japanese_quote`}>『みんながびっくりするようなテクノロジーでときめきを届けたい。』</h1>

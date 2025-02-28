@@ -14,7 +14,6 @@ export default function MobileNav() {
                                     <li><a href="#project2" style={{ padding: "0 48px" }}>2. Face Labo</a></li>
                                     <li><a href="#project3" style={{ padding: "0 48px" }}>3. ice candi</a></li>
                                     <li><a href="#project4" style={{ padding: "0 48px" }}>4. Donut Alert</a></li>
-                                    <li><a href="#project5" style={{ padding: "0 48px" }}>5. Who's That Pokémon?</a></li>
                                     <li><a href="#project6" style={{ padding: "0 48px" }}>6. Climbing Data Analysis</a></li>
                                 </ul>
                             </div>

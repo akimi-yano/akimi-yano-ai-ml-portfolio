@@ -7,7 +7,7 @@ export default function Project() {
   const sportsClassificationDesc = (
     <>
       This project creates a machine learning model to classify images into multiple sports categories using{" "}
-      <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports' categories is 73. The model obtained an accuracy score of 0.91921 on a test set.
+      <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports&apos; categories is 73. The model obtained an accuracy score of 0.91921 on a test set.
     </>
   );
   const sportsClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
@@ -17,7 +17,7 @@ export default function Project() {
   const kenyanCuisineClassificationImagePath = "/assets/KenyanFood13-transformed.png"
   const kenyanCuisineClassificationDesc = (
     <>
-      This project creates a machine learning model that classifies Kenyan cuisines' images into 13 different categories using {" "}
+      This project creates a machine learning model that classifies Kenyan cuisines&apos; images into 13 different categories using {" "}
       <span style={{ color: "lightblue" }}>Pytorch</span>. The model obtained an accuracy score of 0.80801 on a test set.
     </>
   );
@@ -49,41 +49,41 @@ export default function Project() {
   const longTermMemoryForLLMTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const longTermMemoryForLLMLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/ReproPaper-MemoryBank-SiliconFriend" }]
 
-  const maskDetectionTitle = "(Mask Detection Comparing Different Versions of YOLO)"
-  const maskDetectionImagePath = "/assets/under_construction.jpg"
-  const maskDetectionDesc = "TODO: Upgrade version and push the code."
-  const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  const maskDetectionLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const maskDetectionTitle = "(Mask Detection Comparing Different Versions of YOLO)"
+  // const maskDetectionImagePath = "/assets/under_construction.jpg"
+  // const maskDetectionDesc = "TODO: Upgrade version and push the code."
+  // const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  // const maskDetectionLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
-  const segmentationTFTitle = "(Image Segmentation Project Tensorflow)"
-  const segmentationTFImagePath = "/assets/under_construction.jpg"
-  const segmentationTFDesc = "Add Image Segmentation Project"
-  const segmentationTFTags = ["#Tensorflow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
-  const segmentationTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const segmentationTFTitle = "(Image Segmentation Project Tensorflow)"
+  // const segmentationTFImagePath = "/assets/under_construction.jpg"
+  // const segmentationTFDesc = "Add Image Segmentation Project"
+  // const segmentationTFTags = ["#Tensorflow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  // const segmentationTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
-  const segmentationPTTitle = "(Image Segmentation Project Pytorch)"
-  const segmentationPTImagePath = "/assets/under_construction.jpg"
-  const segmentationPTDesc = "Add Image Segmentation Project"
-  const segmentationPTTags = ["#Pytorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
-  const segmentationPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const segmentationPTTitle = "(Image Segmentation Project Pytorch)"
+  // const segmentationPTImagePath = "/assets/under_construction.jpg"
+  // const segmentationPTDesc = "Add Image Segmentation Project"
+  // const segmentationPTTags = ["#Pytorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  // const segmentationPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
-  const objectDetectionTFTitle = "(Object Detection Project Tensorflow)"
-  const objectDetectionTFImagePath = "/assets/under_construction.jpg"
-  const objectDetectionTFDesc = "Add Image Segmentation Project"
-  const objectDetectionTFTags = ["#Tensorflow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  const objectDetectionTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const objectDetectionTFTitle = "(Object Detection Project Tensorflow)"
+  // const objectDetectionTFImagePath = "/assets/under_construction.jpg"
+  // const objectDetectionTFDesc = "Add Image Segmentation Project"
+  // const objectDetectionTFTags = ["#Tensorflow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  // const objectDetectionTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
-  const objectDetectionPTTitle = "(Object Detection Project Pytorch)"
-  const objectDetectionPTImagePath = "/assets/under_construction.jpg"
-  const objectDetectionPTDesc = "Add Image Segmentation Project"
-  const objectDetectionPTTags = ["#Pytorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  const objectDetectionPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const objectDetectionPTTitle = "(Object Detection Project Pytorch)"
+  // const objectDetectionPTImagePath = "/assets/under_construction.jpg"
+  // const objectDetectionPTDesc = "Add Image Segmentation Project"
+  // const objectDetectionPTTags = ["#Pytorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  // const objectDetectionPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
-  const genAITitle = "(Generative AI Project)"
-  const genAIImagePath = "/assets/under_construction.jpg"
-  const genAIDesc = "Add Generative AI Project"
-  const genAITags = ["#Generative AI", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
-  const genAILinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  // const genAITitle = "(Generative AI Project)"
+  // const genAIImagePath = "/assets/under_construction.jpg"
+  // const genAIDesc = "Add Generative AI Project"
+  // const genAITags = ["#Generative AI", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  // const genAILinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
   const covidForecastTitle = "Coronavirus Forecast Center"
   const covidForecastImagePath = "/assets/coronavirus.gif"
@@ -120,7 +120,7 @@ export default function Project() {
   const ioTImagePath = "/assets/donut.gif"
   const ioTDesc = (
   <>
-  Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel’s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.
+  Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel&apos;s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.
   </>
   )
   const ioTTags = ["#Raspberry Pi", "Python", "#Machine Learning", "#Artificial Intelligence"]

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Education() {
   return (
     <div id='education'  className="h-200 p-10 text-black font-pressStart">
@@ -8,7 +10,7 @@ export default function Education() {
       <div className="full-container">
         <div className="m-5">
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/dojo.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/dojo.png'} alt='Coding Dojo'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Coding Dojo Bootcamp</h5>
@@ -22,7 +24,7 @@ export default function Education() {
 
         <div className="m-5">
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/miis.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/miis.png'} alt='Graduate School'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Middlebury Institute of International Studies at Monterey</h5>
@@ -34,7 +36,7 @@ export default function Education() {
 
         <div className="m-5">
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'/assets/ritsumeikan.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'/assets/ritsumeikan.png'} alt='University'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart`}>Ritsumeikan University</h5>

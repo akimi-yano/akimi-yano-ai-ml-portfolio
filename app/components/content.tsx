@@ -1,19 +1,19 @@
 import NavBar from './navbar'
-import MobileNav from './mobilenav'
+// import MobileNav from './mobilenav'
 
 import Banner from './banner'
 import About from './about'
 import About1 from './about1'
 import About2 from './about2'
 import About3 from './about3'
-import About4 from './about4'
-import About5 from './about5'
+// import About4 from './about4'
+// import About5 from './about5'
 import Skill from './skill'
 import Project from './project'
 import Contact from './contact'
 import Education from './education'
 import Experience from './experience'
-import Blog from './blog'
+// import Blog from './blog'
 
 export default function Content() {
   return (

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Experience() {
   return (
     <div id='experience' className="h-200 p-10 text-black font-pressStart">
@@ -9,7 +11,7 @@ export default function Experience() {
       <div className="flex flex-col">
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'} alt='Microsoft'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -25,7 +27,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/microsoft.png'} alt='Microsoft Leap'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -38,7 +40,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/curious_five.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/curious_five.png'} alt='Curious Five'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
@@ -50,10 +52,10 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/just_one_penny.jpeg'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/just_one_penny.jpeg'} alt='JustOnePenny'></Image>
           </div>
           <div className="m-5">
-            <h5 className={`font-pressStart text-xl`}>Software Engineer Intern</h5>
+            <h5 className={`font-pressStart text-xl`}>Software Engineer</h5>
             <h6>Just One Penny</h6>
             <h6>Remote | 03/2020 - 01/2021</h6>
             <li> Contributed to the backend and frontend features to build the fully functional website for Just One Penny who is a NPO to help users make a micro donation from just one penny.</li>
@@ -62,7 +64,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/finli.jpeg'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/finli.jpeg'} alt='Finli'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineer Intern</h5>
@@ -75,7 +77,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/dojo.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/dojo.png'} alt='Coding Dojo'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Software Engineering Teaching Assistant</h5>
@@ -88,7 +90,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/google.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/google.png'} alt='Google'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Global Compliance, Hardware Technologies</h5>
@@ -101,7 +103,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/huawei.png'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/huawei.png'} alt='Huawei'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Global Compliance, Hardware Technologies</h5>
@@ -114,7 +116,7 @@ export default function Experience() {
 
         <div>
           <div className="m-5">
-            <img style={{ paddingTop: "20px", height: "70px" }} src={'assets/un.svg'}></img>
+            <Image style={{ paddingTop: "20px", height: "70px" }} src={'assets/un.svg'} alt='The UN'></Image>
           </div>
           <div className="m-5">
             <h5 className={`font-pressStart text-xl`}>Consultancy Work</h5>
