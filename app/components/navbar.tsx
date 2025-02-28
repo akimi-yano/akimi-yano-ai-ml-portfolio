@@ -1,42 +1,51 @@
+"use client"; // 🔥 This makes it a Client Component
+
+import React, { useState } from 'react'
+import NavBarMenuIcon from  './icons/navBarMenuIcon'
+
 export default function NavBar() {
+    const [isOpen, setIsOpen] = useState(false)
+    const buttonClasses = 'text-white font-londrinaShadow text-2xl font-bold px-2 py-1 border-2 border-white hover:bg-white hover:text-black rounded-lg transition duration-300'
+    const buttons = (
+        <>
+            <button className={buttonClasses}><a href="#about">About</a></button>
+            <button className={buttonClasses}><a href="#project">Projects</a></button>
+            <button className={buttonClasses}><a href="#skill">Skills</a></button>
+            <button className={buttonClasses}><a href="#experience">Experience</a></button>
+            <button className={buttonClasses}><a href="#education">Education</a></button>
+            <button className={buttonClasses}><a href="#contact">Contact</a></button>
+        </>
+    )
     return (
-        <div id='navbar'>
-            {/* <ul id='project-dropdown' className='dropdown-content'>
-                <li><a className={`font-pressStart`} href="#project1">1. Coronavirus Prediction</a></li>
-                <li><a className={`font-pressStart`} href="#project2">2. Face Labo</a></li>
-                <li><a className={`font-pressStart`} href="#project3">3. ice candi</a></li>
-                <li><a className={`font-pressStart`} href="#project4">4. Donut Alert</a></li>
-                <li><a className={`font-pressStart`} href="#project5">5. Who's That Pokémon?</a></li>
-                <li><a className={`font-pressStart`} href="#project6">6. Climbing Data Analysis</a></li>
-            </ul> */}
-            <nav>
-                <div className={`font-londrinaShadow flex justify-center items-center p-1`} >
-                    <div className={`font-londrinaShadow flex justify-between items-center p-1`}>
-                        <a href="#" className={`font-londrinaShadow`} style={{ marginLeft: "1vw" }}>
-                            <h5 className={`font-londrinaShadow text-2xl font-bold`} style={{ display: "inline-block" }}>Akimi Yano</h5>
-                        </a>
-                        <ul className={`font-londrinaShadow flex items-center grid grid-cols-7 gap-4`}>
-                            <li className={`flex items-center`} >
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} href="#about">About</a>
-                            </li>
-                            <li className={`flex items-center`}>
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} style={{ outline: 'none' }} href='#projects-title' data-target='project-dropdown'>Projects</a>
-                            </li>
-                            <li className={`flex items-center`}>
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} href="#skill">Skills</a>
-                            </li>
-                            <li className={`flex items-center`}>
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} href="#education">Education</a>
-                            </li>
-                            <li className={`flex items-center`}>
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} href="#experience">Experience</a>
-                            </li>
-                            <li className={`flex items-center`}>
-                                <a className={`flex items-center font-londrinaShadow text-2xl font-bold`} href="#contact">Contact</a>
-                            </li>
-                        </ul>
+        <div id='navbar' className='font-londrinaShadow'>
+            <nav className='text-white fixed w-full bg-center bg-cover bg-no-repeat'  style={{ backgroundImage: "url('assets/lego_colorful.jpg')" }}>
+                <div className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex items-center justify-between h-16">
+                        <div className="flex flex-row w-full justify-between">
+                            <div className="text-2xl font-bold">
+                                Akimi Yano
+                            </div>
+                            <div className="hidden md:block">
+                                <div className="flex ml-10 items-baseline space-x-2">
+                                    {buttons}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="md:hidden">
+                            <button onClick={() => { setIsOpen(!isOpen) }} type="button" className="fill-gray-100">
+                                <NavBarMenuIcon/>
+                            </button>
+                        </div>
                     </div>
                 </div>
+
+                {
+                    isOpen && (
+                        <div className="flex flex-col gap-y-2 md:hidden px-4 sm:px-6 pb-2">
+                            {buttons}
+                        </div>
+                    )
+                }
             </nav>
         </div>
     );

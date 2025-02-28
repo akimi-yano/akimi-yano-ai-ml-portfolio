@@ -1,5 +1,4 @@
 import NavBar from './navbar'
-// import MobileNav from './mobilenav'
 
 import Banner from './banner'
 import About from './about'
@@ -19,7 +18,6 @@ export default function Content() {
   return (
     <div>
       <NavBar />
-      {/* <MobileNav /> */}
 
       <Banner />
       <About />
