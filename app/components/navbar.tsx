@@ -1,7 +1,8 @@
 "use client"; // 🔥 This makes it a Client Component
 
 import React, { useState } from 'react'
-import NavBarMenuIcon from  './icons/navBarMenuIcon'
+import NavBarMenuIcon from './icons/navBarMenuIcon'
+import HomeIcon from './icons/homeIcon'
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -18,12 +19,17 @@ export default function NavBar() {
     )
     return (
         <div id='navbar' className='font-londrinaShadow'>
-            <nav className='text-white fixed w-full bg-center bg-cover bg-no-repeat'  style={{ backgroundImage: "url('assets/lego_colorful.jpg')" }}>
+            <nav className='text-white fixed w-full bg-center bg-cover bg-no-repeat' style={{ backgroundImage: "url('assets/lego_colorful.jpg')" }}>
                 <div className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex flex-row w-full justify-between">
-                            <div className="text-2xl font-bold">
-                                Akimi Yano
+                            <div className="flex flex-row items-center justify-stretch">
+                                <div className='m-1'>
+                                    <HomeIcon />
+                                </div>
+                                <div className="text-2xl font-bold m-1">
+                                    <a href="#"> Akimi Yano</a>
+                                </div>
                             </div>
                             <div className="hidden md:block">
                                 <div className="flex ml-10 items-baseline space-x-2">
@@ -33,7 +39,7 @@ export default function NavBar() {
                         </div>
                         <div className="md:hidden">
                             <button onClick={() => { setIsOpen(!isOpen) }} type="button" className="fill-gray-100">
-                                <NavBarMenuIcon/>
+                                <NavBarMenuIcon />
                             </button>
                         </div>
                     </div>
