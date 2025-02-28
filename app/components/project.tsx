@@ -7,7 +7,7 @@ export default function Project() {
   const sportsClassificationDesc = (
     <>
       This project creates a machine learning model to classify images into multiple sports categories using{" "}
-      <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports&apos; categories is 73. The model obtained an accuracy score of 0.91921 on a test set.
+      <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports&apos; categories is 73. The model obtained an {" "} <span style={{ color: "red" }}>accuracy score of 0.91921</span> on a test set.
     </>
   );
   const sportsClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
@@ -18,7 +18,7 @@ export default function Project() {
   const kenyanCuisineClassificationDesc = (
     <>
       This project creates a machine learning model that classifies Kenyan cuisines&apos; images into 13 different categories using {" "}
-      <span style={{ color: "lightblue" }}>Pytorch</span>. The model obtained an accuracy score of 0.80801 on a test set.
+      <span style={{ color: "lightblue" }}>Pytorch</span>. The model obtained an {" "} <span style={{ color: "red" }}>accuracy score of 0.80801</span> on a test set.
     </>
   );
   const kenyanCuisineClassificationTags = ["#Pytorch", "#Scikit Learn", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
@@ -30,7 +30,7 @@ export default function Project() {
   const lungXRayClassificationDesc = (
     <>
       This project creates a machine learning model that classifies the lung X-Ray images into 3 categories: COVID, Pneumonia, or a healthy lung, using {" "}
-      <span style={{ color: "green" }}>Tensorflow and Keras</span>. The model achieved the Training Accuracy of 0.9561 and the Validation Accuracy of 0.9241.
+      <span style={{ color: "green" }}>Tensorflow and Keras</span>. The model achieved the  {" "} <span style={{ color: "red" }}>Training Accuracy of 0.9561 and the Validation Accuracy of 0.9241</span>.
 
     </>
   );
@@ -110,7 +110,7 @@ export default function Project() {
   const computerVisionImagePath = "assets/facelabo.gif"
   const computerVisionDesc = (
   <>
-  Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "red" }}>OpenCV</span> and {" "}<span style={{ color: "red" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "red" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
+  Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "brown" }}>OpenCV</span> and {" "}<span style={{ color: "brown" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "brown" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
   </>
   )
   const computerVisionTags = ["#OpenCV", "Python", "Django", "#Machine Learning", "#Artificial Intelligence"]
