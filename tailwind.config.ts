@@ -16,10 +16,20 @@ export default {
         pressStart: ["var(--font-pressStart2P)"],
         londrinaShadow: ["var(--font-londrinaShadow)"],
         delaGothic: ["var(--font-delaGothicOne)"],
-        dotGothic16: ["var(--font-dotGothic16)"], 
+        dotGothic16: ["var(--font-dotGothic16)"],
       }
     },
   },
+  // keyFrames: {
+  //   'open-menu': {
+  //     '0%': { transform: 'scaleY(0)' },
+  //     '80%': { transform: 'scaleY(1.2)' },
+  //     '100%': { transform: 'scaleY(1)' },
+  //   },
+  // },
+  // animation: {
+  //   'open-menu': 'open-menu 0.5s ease-in-out forwards',
+  // },
   plugins: [],
   safelist: [
     "px-4",

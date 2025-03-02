@@ -9,16 +9,16 @@ export default function NavBar() {
     const buttonClasses = 'text-white font-londrinaShadow text-2xl font-bold px-2 py-1 border-2 border-white hover:bg-white hover:text-black rounded-lg transition duration-300'
     const buttons = (
         <>
-            <button className={buttonClasses}><a href="#about">About</a></button>
-            <button className={buttonClasses}><a href="#project">Projects</a></button>
-            <button className={buttonClasses}><a href="#skill">Skills</a></button>
-            <button className={buttonClasses}><a href="#experience">Experience</a></button>
-            <button className={buttonClasses}><a href="#education">Education</a></button>
-            <button className={buttonClasses}><a href="#contact">Contact</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#about">About</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#project">Projects</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#skill">Skills</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#experience">Experience</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#education">Education</a></button>
+            <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#contact">Contact</a></button>
         </>
     )
     return (
-        <div id='navbar' className='absolute font-londrinaShadow z-40'>
+        <div id='navbar' className='md:absolute font-londrinaShadow z-40'>
             <nav className='text-white fixed w-full bg-center bg-cover bg-no-repeat' style={{ backgroundImage: "url('assets/lego_colorful.jpg')" }}>
                 <div className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between">
