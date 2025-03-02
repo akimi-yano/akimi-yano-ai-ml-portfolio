@@ -1,4 +1,5 @@
 import Content from "./components/content";
+import NavBar from './components//navbar'
 import { Press_Start_2P, Londrina_Shadow, Dela_Gothic_One, DotGothic16 } from "next/font/google";
 
 const pressStart2PRegular = Press_Start_2P({
@@ -32,6 +33,7 @@ const dotGothic16 = DotGothic16({
 export default function Home() {
   return (
     <div className={`${pressStart2PRegular.variable} ${londrinaShadow.variable} ${delaGothicOne.variable} ${dotGothic16.variable}`}>
+    <NavBar />
     <Content/>
     </div>
   );

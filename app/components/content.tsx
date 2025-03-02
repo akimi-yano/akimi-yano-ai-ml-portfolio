@@ -1,4 +1,4 @@
-import NavBar from './navbar'
+
 
 import Banner from './banner'
 import About from './about'
@@ -13,9 +13,7 @@ import Experience from './experience'
 
 export default function Content() {
   return (
-    <div>
-      <NavBar />
-
+    <div className="py-10 bg-black">
       <Banner />
       <About />
       <About1 />
