@@ -9,8 +9,8 @@ export default function Skill() {
         <div id='skill' className="bg-black">
             <div className="bg-black py-10">
                 <div>
-                    <h2 className={`font-pressStart text-2xl px-10 py-5 text-white`}>Skills</h2>
-                    <p className={`font-pressStart text-xl px-10 py-5 text-white`}>Some of my skills to highlight:</p>
+                    <h2 className={`font-pressStart text-2xl px-10 py-5 text-white break-words`}>Skills</h2>
+                    <p className={`font-pressStart text-xl px-10 py-5 text-white break-words`}>Some of my skills to highlight:</p>
                 </div>
 
                 <div className="py-12 bg-black">
@@ -20,10 +20,10 @@ export default function Skill() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 font-pressStart justify-items-center">
                             {Object.entries(skills).map(([category, items]) => (
                                 <div key={category} className="bg-white shadow-lg p-6 rounded-xl">
-                                    <h3 className="text-xl font-semibold mb-4 text-black">{category}</h3>
+                                    <h3 className="text-xl font-semibold mb-4 text-black break-words">{category}</h3>
                                     <ul className="space-y-2">
                                         {items.map((skill) => (
-                                            <li key={skill} className="text-gray-600 bg-gray-200 px-3 py-1 m-1 rounded-md text-sm inline-block">
+                                            <li key={skill} className="text-gray-600 bg-gray-200 px-3 py-1 m-1 rounded-md text-sm inline-block break-words">
                                                 {skill}
                                             </li>
                                         ))}

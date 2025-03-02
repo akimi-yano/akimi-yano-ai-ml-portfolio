@@ -12,8 +12,8 @@ export default function Contact() {
     <footer id='contact' className="font-pressStart bg-black">
       <div className='py-10'>
         <div>
-          <h2 className={`font-pressStart text-2xl px-10 py-5 text-white`}>Contact Me</h2>
-          <p className={`font-pressStart px-10 py-5 text-white`}>Please feel free to reach out to me</p>
+          <h2 className={`font-pressStart text-2xl px-10 py-5 text-white break-words`}>Contact Me</h2>
+          <p className={`font-pressStart px-10 py-5 text-white break-words`}>Please feel free to reach out to me</p>
         </div>
 
         <div className="grid grid-cols-4 justify-items-stretch gap-5 px-10 py-5">
@@ -22,7 +22,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <EmailIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">Email</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">Email</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -30,7 +30,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <LinkedInIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">LinkedIn</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">LinkedIn</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -38,7 +38,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <DownloadIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">Resume</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">Resume</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -46,7 +46,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <GitHubIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">GitHub</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">GitHub</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -54,7 +54,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <YoutubeIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">YouTube</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">YouTube</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -62,7 +62,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <AwardIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">Kaggle</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">Kaggle</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -70,7 +70,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <XIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">X</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">X</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -78,12 +78,12 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <PublicationIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white">Medium</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs text-white break-words">Medium</h6></a>
           </div>
         </div>
 
         <div className="flex justify-self-center px-10 pb-5 pt-10">
-          <div className={`font-pressStart text-white`}>
+          <div className={`font-pressStart text-white break-words`}>
             © 2025 Akimi Yano
           </div>
         </div>
