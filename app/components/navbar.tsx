@@ -6,7 +6,7 @@ import HomeIcon from './icons/homeIcon'
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
-    const buttonClasses = 'text-white font-londrinaShadow text-2xl font-bold px-2 py-1 border-2 border-white hover:bg-white hover:text-black rounded-lg transition duration-300'
+    const buttonClasses = 'text-white font-londrinaShadow text-2xl font-bold px-2 py-1 border-2 border-white hover:bg-white hover:text-black rounded-lg transition duration-0'
     const buttons = (
         <>
             <button onClick={() => { setIsOpen(!isOpen) }} className={buttonClasses}><a href="#about">About</a></button>
