@@ -6,18 +6,18 @@ import PublicationIcon from './icons/publicationIcon'
 export default function ProjectCard({ projectTitile, projectImagePath, projectDesc, projectTags, projectLinks, ...props }) {
 
     return (
-        <div className="break-inside-avoid aspect-video p-8 rounded-3xl border border-black bg-white dark:border-black dark:bg-black">
+        <div className="break-inside-avoid aspect-video p-8 rounded-3xl border border-black bg-black">
             <div>
-                <h2 className={`font-pressStart text-xl m-1`}>{projectTitile}</h2>
+                <h2 className={`font-pressStart text-xl m-1 text-white`}>{projectTitile}</h2>
             </div>
             <div className='py-5'>
                 <img className='items-center' src={projectImagePath} alt={projectTitile} />
             </div>
             <div>
-                <p className={`text-base m-1`}>{projectDesc}</p>
+                <p className={`text-base m-1 text-white`}>{projectDesc}</p>
             </div>
             {/* <div>
-                <ul className={`font-pressStart text-xs m-1`}>
+                <ul className={`font-pressStart text-xs m-1 text-white`}>
                     {projectTags.map((projectTag, tagIndex) => (
                         <li key={tagIndex}>{projectTag}</li>
                     ))}

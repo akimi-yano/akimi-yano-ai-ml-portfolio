@@ -130,8 +130,8 @@ export default function Project() {
     <div id='project' className="font-pressStart bg-white">
       <div className='py-10'>
         <div id="projects-title" className="text-black">
-          <h2 className={`font-pressStart text-2xl px-10 py-5`}>Projects</h2>
-          <p className={`font-pressStart px-10 py-5`}>A selection of my recent work in AI/ ML and fullstack development.</p>
+          <h2 className={`font-pressStart text-2xl px-10 py-5 text-black`}>Projects</h2>
+          <p className={`font-pressStart px-10 py-5 text-black`}>A selection of my recent work in AI/ ML and fullstack development.</p>
         </div>
         <div>
           <div className="box-border columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 px-10 py-5">

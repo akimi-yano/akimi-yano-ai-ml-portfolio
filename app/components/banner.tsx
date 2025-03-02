@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Banner() {
     return (
-        <div id='banner' className="flex justify-around relative w-full">
+        <div id='banner' className="flex justify-around relative w-full bg-black">
             <div className="relative w-full bg-fixed bg-center bg-cover bg-no-repeat py-10"
                 style={{ backgroundImage: "url('assets/banner_background.svg')" }}>
                 <div className="grid-flow-col grid-rows-2">
