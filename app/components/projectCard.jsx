@@ -8,9 +8,9 @@ export default function ProjectCard({ projectTitile, projectImagePath, projectDe
     return (
         <div className="break-inside-avoid aspect-video p-8 rounded-3xl border border-black bg-white dark:border-black dark:bg-black">
             <div>
-                <h2 className={`font-pressStart text-l m-1`}>{projectTitile}</h2>
+                <h2 className={`font-pressStart text-xl m-1`}>{projectTitile}</h2>
             </div>
-            <div>
+            <div className='py-5'>
                 <img className='items-center' src={projectImagePath} alt={projectTitile} />
             </div>
             <div>

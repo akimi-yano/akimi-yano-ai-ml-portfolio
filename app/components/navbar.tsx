@@ -18,7 +18,7 @@ export default function NavBar() {
         </>
     )
     return (
-        <div id='navbar' className='font-londrinaShadow z-40'>
+        <div id='navbar' className='absolute font-londrinaShadow z-40'>
             <nav className='text-white fixed w-full bg-center bg-cover bg-no-repeat' style={{ backgroundImage: "url('assets/lego_colorful.jpg')" }}>
                 <div className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between">

@@ -1,6 +1,6 @@
 export default function GitHubIcon() {
     return (
-        <span className="[&>svg]:h-20 [&>svg]:w-20 fill-current text-white">
+        <span className="[&>svg]:h-10 [&>svg]:w-10 fill-current text-white">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

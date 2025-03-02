@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div id='about' className="text-black">
+        <div id='about' className="text-black bg-white">
             <div className='py-10'>
                 <h2 className={`font-pressStart text-2xl px-10 py-5`}>About Me</h2>
                 <div>

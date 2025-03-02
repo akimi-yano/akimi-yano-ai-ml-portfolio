@@ -9,7 +9,7 @@ import XIcon from './icons/xIcon'
 
 export default function Contact() {
   return (
-    <footer id='contact' className="font-pressStart">
+    <footer id='contact' className="font-pressStart bg-black">
       <div className='py-10'>
         <div>
           <h2 className={`font-pressStart text-2xl px-10 py-5`}>Contact Me</h2>
@@ -22,7 +22,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <EmailIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">Email</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">Email</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -30,7 +30,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <LinkedInIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">LinkedIn</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">LinkedIn</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -38,7 +38,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <DownloadIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">Resume</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">Resume</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -46,7 +46,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <GitHubIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">GitHub</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">GitHub</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -54,7 +54,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <YoutubeIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">YouTube</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">YouTube</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -62,7 +62,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <AwardIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">AI Competition</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">Kaggle</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -70,7 +70,7 @@ export default function Contact() {
               <div className="flex justify-self-center">
                 <XIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">X</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">X</h6></a>
           </div>
 
           <div className="flex justify-self-center">
@@ -78,7 +78,7 @@ export default function Contact() {
               <div className="flex justify-self-center" >
                 <PublicationIcon />
               </div>
-              <h6 className="flex justify-self-center black-text hide-on-large-only">Medium</h6></a>
+              <h6 className="flex justify-self-center black-text hide-on-large-only text-xs">Medium</h6></a>
           </div>
         </div>
 

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Education() {
   return (
-    <div id='education' className="text-black font-pressStart">
+    <div id='education' className="text-black font-pressStart bg-white">
       <div className='py-10'>
         <div>
           <h2 className={`font-pressStart text-2xl px-10 py-5`}>Education</h2>
