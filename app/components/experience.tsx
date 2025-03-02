@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Experience() {
   return (
-    <div id='experience' className="h-200 p-10 text-black font-pressStart">
+    <div id='experience' className="h-200 text-black font-pressStart">
       <div>
         <h2 className={`font-pressStart text-2xl m-5`}>Experience</h2>
         <p className={`font-pressStart text-xl m-5`}>Extensive work experience on building software with AI capability</p>

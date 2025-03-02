@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div id='about' className="h-96 p-10 text-black">
+        <div id='about' className="h-96 text-black">
             <h2 className={`font-pressStart text-2xl m-5`}>About Me</h2>
             <div>
                 <p className={`font-pressStart text-xl m-5`}>AI/ ML Software Engineer based in Silicon Valley. I love to code and experiment.</p>

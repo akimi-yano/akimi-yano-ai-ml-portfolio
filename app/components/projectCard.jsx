@@ -1,4 +1,3 @@
-// import LinkIcon from './icons/linkIcon'
 import GitHubIcon from './icons/gitHubIcon'
 import YoutubeIcon from './icons/youtubeIcon'
 import OpenExternalLinkIcon from './icons/openExternalLinkIcon'
@@ -8,8 +7,6 @@ export default function ProjectCard({ projectTitile, projectImagePath, projectDe
 
     return (
         <div className="break-inside-avoid aspect-video p-8 rounded-3xl border border-black bg-white dark:border-black dark:bg-black">
-            {/* <div className="break-inside-avoid aspect-video p-8 rounded-3xl border border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800"> */}
-            {/* <div className="mb-8 flex items-center gap-4"> */}
             <div>
                 <h2 className={`font-pressStart text-l m-1`}>{projectTitile}</h2>
             </div>
@@ -38,7 +35,6 @@ export default function ProjectCard({ projectTitile, projectImagePath, projectDe
                     ))}
                 </div>
             </div>
-            {/* </div> */}
         </div>
     );
 }

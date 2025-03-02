@@ -109,9 +109,9 @@ export default function Project() {
   const computerVisionTitle = "Face Labo - Interactive Computer Vision"
   const computerVisionImagePath = "assets/facelabo.gif"
   const computerVisionDesc = (
-  <>
-  Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "brown" }}>OpenCV</span> and {" "}<span style={{ color: "brown" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "brown" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
-  </>
+    <>
+      Machine learning/ computer vision app counting how often a person blinks or whether they are sleepy from media files. Applied computer vision techniques using {" "}<span style={{ color: "brown" }}>OpenCV</span> and {" "}<span style={{ color: "brown" }}>NumPy</span> and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. Realized interactive experience on a {" "}<span style={{ color: "brown" }}>Python Django web app</span> through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output.
+    </>
   )
   const computerVisionTags = ["#OpenCV", "Python", "Django", "#Machine Learning", "#Artificial Intelligence"]
   const computerVisionLinks = [{ "type": "website", "url": "http://54.183.232.224/" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=keb4yA6N1Lc&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/ml_project" }]
@@ -119,23 +119,20 @@ export default function Project() {
   const ioTTitle = "Donut Alert with Raspberry Pi"
   const ioTImagePath = "assets/donut.gif"
   const ioTDesc = (
-  <>
-  Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel&apos;s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.
-  </>
+    <>
+      Real-time face recognition and text notification system using  {" "}<span style={{ color: "blue" }}>Raspberry Pi</span>  and {" "}<span style={{ color: "blue" }}> Intel NCS 2</span>. Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model. Trained and ran face detection/recognition model with {" "}<span style={{ color: "blue" }}>Intel&apos;s Movidius Neural Compute Stick 2</span> to speed up face detection/recognition by 200+%. Leveraged {" "}<span style={{ color: "blue" }}>Twilio</span>  and {" "}<span style={{ color: "blue" }}>Amazon S3 </span>to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.
+    </>
   )
   const ioTTags = ["#Raspberry Pi", "Python", "#Machine Learning", "#Artificial Intelligence"]
   const ioTLinks = [{ "type": "medium", "url": "https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/iot_ml_project" }]
 
   return (
-    <div id='project' className="p-10 font-pressStart">
+    <div id='project' className="font-pressStart">
 
       <div id="projects-title" className="text-black">
         <h2 className={`font-pressStart text-2xl m-5`}>Projects</h2>
         <p className={`font-pressStart  m-5`}>A selection of my recent work in AI/ ML and fullstack development.</p>
       </div>
-
-      {/* <div className="min-h-screen p-12 bg-gray-50 dark:bg-gray-900">
-        <div className="container px-6 md:px-12"> */}
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
         <ProjectCard projectTitile={sportsClassificationTitle} projectImagePath={sportsClassificationImagePath} projectDesc={sportsClassificationDesc} projectTags={sportsClassificationTags} projectLinks={sportsClassificationLinks} />
         <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />
@@ -152,8 +149,6 @@ export default function Project() {
         <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />
         <ProjectCard projectTitile={ioTTitle} projectImagePath={ioTImagePath} projectDesc={ioTDesc} projectTags={ioTTags} projectLinks={ioTLinks} />
       </div>
-      {/* </div>
-      </div> */}
     </div >
   );
 }

@@ -9,7 +9,7 @@ import XIcon from './icons/xIcon'
 
 export default function Contact() {
   return (
-    <footer id='contact' className="h-200 p-10 font-pressStart">
+    <footer id='contact' className="h-200 font-pressStart">
       <div>
         <h2 className={`font-pressStart text-2xl m-5`}>Contact Me</h2>
         <p className={`font-pressStart m-5`}>Please feel free to reach out to me</p>

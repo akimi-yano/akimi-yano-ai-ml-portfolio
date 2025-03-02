@@ -44,7 +44,6 @@ export default function NavBar() {
                         </div>
                     </div>
                 </div>
-
                 {
                     isOpen && (
                         <div className="flex flex-col gap-y-2 md:hidden px-4 sm:px-6 pb-2">
