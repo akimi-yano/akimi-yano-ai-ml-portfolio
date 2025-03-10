@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/button.js", "app/components/projectCard.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/button.js", "app/components/projectCard.jsx", "app/components/timeLeft.jsx", "app/components/timeRight.jsx"],
   "exclude": ["node_modules"]
 }
