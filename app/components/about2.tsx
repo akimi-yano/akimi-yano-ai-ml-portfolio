@@ -10,8 +10,8 @@ export default function About2() {
           <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-black break-words`}>Through this project, I reconfirmed my passion to build technology to serve people.</p>
         </div>
         <div>
-          <img src='assets/kaggle-title.png' alt='kaggle-title-image' className='w-full  md:w-1/2 m-auto p-5'/>
-          <img src='assets/coronavirus.gif' alt='coronavirus-project-gif' className='w-full md:w-1/2 m-auto p-5'/>
+          <img src='assets/kaggle-title.png' alt='kaggle-title-image' className='w-full 2xl:w-1/2 m-auto p-5'/>
+          <img src='assets/coronavirus.gif' alt='coronavirus-project-gif' className='w-full 2xl:w-1/2 m-auto p-5'/>
         </div>
       </div>
     </div>

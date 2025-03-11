@@ -21,38 +21,30 @@ export default {
       inset: {
         '17': '68px',
         '26': '104px'
-      }
-      // animation: {
-      //   customAnim: "anim 250s infinite",
-      // },
-      // keyframes: {
-      //   anim: {
-      //     "0%, 12%, 24%, 36%, 52%, 62%, 74%, 88%, 100%": {
-      //       transformOrigin: "600% 50%",
-      //       transform: "rotate(0)",
-      //     },
-      //     "2%, 20%, 32%, 44%, 58%, 66%, 78%, 86%, 96%": {
-      //       transformOrigin: "-600% 150%",
-      //       transform: "rotate(360deg)",
-      //     },
-      //     "4%, 18%, 30%, 42%, 56%, 64%, 80%, 94%": {
-      //       transformOrigin: "-500% 100%",
-      //       transform: "rotate(-50deg)",
-      //     },
-      //     "6%, 14%, 34%, 46%, 48%, 60%, 76%, 90%": {
-      //       transformOrigin: "700% -50%",
-      //       transform: "rotate(-60deg)",
-      //     },
-      //     "8%, 16%, 26%, 38%, 50%, 70%, 82%, 92%": {
-      //       transformOrigin: "500% -100%",
-      //       transform: "rotate(50deg)",
-      //     },
-      //     "10%, 22%, 28%, 40%, 54%, 68%, 72%, 84%, 98%": {
-      //       transformOrigin: "500% 10%",
-      //       transform: "rotate(-360deg) scale(3.0)",
-      //     },
-      //   },
-      // },
+      },
+      animation: {
+        equalize: "equalize 4s infinite linear",
+      },
+      keyframes: {
+        equalize: {
+          "0%, 36%, 92%": { height: "60px" },
+          "4%, 88%": { height: "50px" },
+          "8%, 84%": { height: "40px" },
+          "12%": { height: "30px" },
+          "16%, 20%": { height: "20px" },
+          "24%, 32%, 44%": { height: "40px" },
+          "28%, 56%": { height: "10px" },
+          "40%": { height: "20px" },
+          "48%": { height: "70px" },
+          "52%, 60%": { height: "30px" },
+          "64%": { height: "50px" },
+          "68%, 80%": { height: "60px" },
+          "72%": { height: "70px" },
+          "76%": { height: "80px" },
+          "96%": { height: "70px" },
+          "100%": { height: "80px" },
+        },
+      },
     },
   },
   plugins: [],

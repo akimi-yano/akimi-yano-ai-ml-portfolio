@@ -25,7 +25,9 @@ export default function About() {
                         </p>
                         <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-black break-words`}>In my spare time, I enjoy learning new foreign languages and climbing rocks.</p>
                     </div>
-                    <ImageSlider onSlideChange={handleSlideChange} />
+                    <div className='w-full'>
+                        <ImageSlider onSlideChange={handleSlideChange} />
+                    </div>
                 </div>
             </div>
         </div>

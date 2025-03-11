@@ -46,7 +46,7 @@ export default function ImageSlider({ onSlideChange }: { onSlideChange: (slideIn
     }, [currentIndex]); // Dependency on currentIndex to trigger updates
 
     return (
-        <div className='max-w-[500px] h-[300px] w-full md:max-w-[600px] md:h-[500px] p-10 relative group'>
+        <div className='max-w-[500px] h-[300px] w-full md:max-w-[600px] md:h-[500px] p-10 relative group m-auto'>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                 className="w-full h-full rounded-2xl bg-center bg-cover duration-500"

@@ -8,8 +8,8 @@ export default function TimeRight({ time, title, desc, image }) {
                 </div>
                 <div className='bg-white p-6 rounded-md shadow-md'>
                     <span className='font-bold text-indigo-600 text-sm tracking-wide'>{time}</span>
-                    <h1 className="text-sm md:text-2xl fond-bold pt-1">{title}</h1>
-                    <p className='pt-4 font-pressStart text-xs md:text-xl py-5 text-black break-words'>
+                    <h1 className="text-sm md:text-lg fond-bold pt-1">{title}</h1>
+                    <p className='pt-4 font-pressStart text-xs md:text-lg py-5 text-black break-words'>
                         {desc} </p>
                 </div>
             </div>
