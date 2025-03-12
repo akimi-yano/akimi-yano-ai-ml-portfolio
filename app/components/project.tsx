@@ -127,12 +127,8 @@ export default function Project() {
   const ioTLinks = [{ "type": "medium", "url": "https://medium.com/@akimi.mimi.yano/building-a-donut-alert-system-with-raspberry-pi-da47b3f8ce36" }, { "type": "youtube", "url": "https://www.youtube.com/watch?v=5vqkS9ZKlRo&ab_channel=AkimiYano" }, { "type": "github", "url": "https://github.com/akimi-yano/iot_ml_project" }]
 
   return (
-    <div id='project' className="font-pressStart bg-white">
+    <div className="font-pressStart bg-white">
       <div className='py-10 md:py-16'>
-        <div id="projects-title" className="text-black">
-          <h2 className={`font-pressStart text-2xl px-10 py-5 text-black`}>Projects</h2>
-          <p className={`font-pressStart px-10 py-5 text-black`}>A selection of my recent work in AI/ ML and fullstack development.</p>
-        </div>
         <div className="box-border columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 px-10 py-5">
           <ProjectCard projectTitile={sportsClassificationTitle} projectImagePath={sportsClassificationImagePath} projectDesc={sportsClassificationDesc} projectTags={sportsClassificationTags} projectLinks={sportsClassificationLinks} />
           <ProjectCard projectTitile={kenyanCuisineClassificationTitle} projectImagePath={kenyanCuisineClassificationImagePath} projectDesc={kenyanCuisineClassificationDesc} projectTags={kenyanCuisineClassificationTags} projectLinks={kenyanCuisineClassificationLinks} />

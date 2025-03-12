@@ -9,13 +9,8 @@ import XIcon from './icons/xIcon'
 
 export default function Contact() {
   return (
-    <footer id='contact' className="font-pressStart bg-black">
+    <footer className="font-pressStart bg-black">
       <div className='py-10 md:py-16'>
-        <div>
-          <h2 className={`font-pressStart text-2xl px-10 py-5 text-white break-words`}>Contact Me</h2>
-          <p className={`font-pressStart px-10 py-5 text-white break-words`}>Please feel free to reach out to me</p>
-        </div>
-
         <div className="grid grid-cols-4 justify-items-stretch gap-5 px-10 py-5">
           <div className="flex justify-self-center">
             <a href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>

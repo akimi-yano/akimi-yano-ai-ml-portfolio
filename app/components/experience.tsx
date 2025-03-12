@@ -2,13 +2,8 @@ import Image from 'next/image'
 
 export default function Experience() {
   return (
-    <div id='experience' className="text-black font-pressStart bg-white">
+    <div className="text-black font-pressStart bg-white">
       <div className='py-10 md:py-16'>
-        <div>
-          <h2 className={`font-pressStart text-2xl px-10 py-5 text-black break-words`}>Experience</h2>
-          <p className={`font-pressStart text-xl px-10 py-5 text-black break-words`}>Extensive work experience on building software with AI capability</p>
-        </div>
-
         <div className="flex flex-col">
           <div>
             <div className="px-10 py-5">

@@ -6,13 +6,8 @@ export default function Skill() {
     };
 
     return (
-        <div id='skill' className="bg-black">
+        <div className="bg-black">
             <div className="bg-black py-10 md:py-16">
-                <div>
-                    <h2 className={`font-pressStart text-2xl px-10 py-5 text-white break-words`}>Skills</h2>
-                    <p className={`font-pressStart text-xl px-10 py-5 text-white break-words`}>Some of my skills to highlight:</p>
-                </div>
-
                 <div className="py-12 bg-black">
                     <div className="mx-auto px-10 bg-black">
                         {/* <h2 className="text-3xl font-bold text-center mb-8">Skills</h2> */}

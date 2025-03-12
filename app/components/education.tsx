@@ -2,13 +2,9 @@ import Image from 'next/image'
 
 export default function Education() {
   return (
-    <div id='education' className="text-black font-pressStart bg-white">
+    <div className="text-black font-pressStart bg-white">
       <div className='py-10 md:py-16'>
-        <div>
-          <h2 className={`font-pressStart text-2xl px-10 py-5 text-black break-words`}>Education</h2>
-          <p className={`font-pressStart text-xl px-10 py-5 text-black break-words`}>Completed coding bootcamp, 2 masters degrees and bachelors abroad</p>
-        </div>
-        <div>
+        <div className='text-black font-pressStart bg-white'>
           <div>
             <div className="px-10 py-5">
               <Image style={{ paddingTop: "20px", height: "70px" }} width='70' height='70' src={'assets/dojo.png'} alt='Coding Dojo'></Image>
