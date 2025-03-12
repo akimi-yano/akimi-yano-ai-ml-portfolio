@@ -8,9 +8,9 @@ export default function TimeLeft({ time, title, desc, image }) {
                 <div className='absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-white top-11 left-26 md:left-auto md:right-14' aria-hidden='true'>
                 </div>
                 <div className='bg-white p-6 rounded-md shadow-md'>
-                    <span className='font-bold text-indigo-600 text-sm tracking-wide'>{time}</span>
-                    <h1 className="text-sm md:text-lg fond-bold pt-1">{title}</h1>
-                    <p className='pt-4 font-pressStart text-xs md:text-lg py-5 text-black break-words'>{desc}</p> 
+                    <span className='font-bold text-indigo-600 text-sm'>{time}</span>
+                    <h1 className="text-sm py-1">{title}</h1>
+                    <p className='font-pressStart text-xs py-1 text-black break-words'>{desc}</p> 
                 </div>
             </div>
         </div>

@@ -3,23 +3,23 @@ import TimeLeft from './timeLeft'
 
 export default function Timeline() {
     const step1_time = '2019 - 2024'
-    const step1_title = 'AI/ML Applications'
-    const step1_desc = 'I have been participating on Kaggle competitions which are competitions for Machine Learning. I have built an web app using my own model, which was so much fun ! I worked as a Software Engineer and integrated AI/ML functionalities into web apps.'
+    const step1_title = 'AI Applications'
+    const step1_desc = 'Integrated AI functionalities into apps. Built ML models during Kaggle competitions.'
     const step1_img = 'assets/kaggle.png'
 
     const step2_time = '2024 Summer'
-    const step2_title = 'AI/ML/LLM Projects'
-    const step2_desc = 'I joined the AI/ML bootcamp and other online classes to brush up some fundamentals and started building more ML models from scratch.'
+    const step2_title = 'AI Projects from Scratch'
+    const step2_desc = 'Built more ML models from scratch during AI/ML bootcamp.'
     const step2_img = 'assets/ucsd.png'
 
     const step3_time = '2024 Winter'
-    const step3_title = 'Deep Learning & Computer Vision Projects'
-    const step3_desc = 'Out of my curiousity for Computer Vision technology, I took part in the 6 different Deep Learning & Computer Vision programs which allowed me to also complete multiple Kaggle competitions for the ML models related to Computer Vision.'
+    const step3_title = 'Vision AI Projects'
+    const step3_desc = 'Built even more Deep Learning (DL) models focusing on Vision AI during DL/CV programs.'
     const step3_img = 'assets/opencv.png'
 
     const step4_time = '2025 - Present'
-    const step4_title = 'Building More AI/ML Projects'
-    const step4_desc = 'I have been continuously learning and building ! Please stay tuned for my future apps !'
+    const step4_title = 'Building More AI Projects'
+    const step4_desc = 'Continuously learning and building more AI. Please stay tuned for my future apps!'
     const step4_img = 'assets/google_colab.png'
 
     return (

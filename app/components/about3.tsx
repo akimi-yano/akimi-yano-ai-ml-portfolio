@@ -9,9 +9,9 @@ export default function About3() {
         </div>
         <div>
         <h3 className={`font-pressStart text-2xl px-10 py-5 text-white break-words`}>My AI/ML Learning Journey</h3>
-          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>My favorite part of being an Engineer is that when I show people an app I built with AI and witness people&apos;s mind-blown reactions and smiles !</p>
-          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>It is truly priceless !</p>
-          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>I would love to collaborate for some exciting projects !</p>
+          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>My favorite part of being an Engineer is that when I show people an app I built with AI and witness people&apos;s mind-blown reactions !</p>
+          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>So I really enjoy learning by actually building projects !</p>
+          <p className={`font-pressStart text-base md:text-xl px-10 py-5 text-white break-words`}>I have been learning a lot, and looking forward to learning even more !</p>
         </div>
       </div>
     </div>
