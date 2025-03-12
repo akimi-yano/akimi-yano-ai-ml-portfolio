@@ -32,7 +32,7 @@ export default function Content() {
   const educationNavId = 'education'
   const educationNavImage = 'assets/yellow_lego.jpg'
   const educationNavTitle = 'Education'
-  const educationNavDesc = 'Completed coding bootcamp, 2 masters degrees and bachelors abroad'
+  const educationNavDesc = 'Numerous upskilling courses, 2 masters degrees and bachelors abroad'
   
   const contactNavId = 'contact'
   const contactNavImage = 'assets/red_lego.jpg'
