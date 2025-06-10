@@ -18,7 +18,7 @@ export default function Banner() {
                         </div>
                     </div>
                     <div className="flex justify-center px-10 md:py-5">
-                        <h1 className={`font-londrinaShadow text-center font-bold tracking-wide text-white text-4xl break-words`}>AI / ML Enginner</h1>
+                        <h1 className={`font-londrinaShadow text-center font-bold tracking-wide text-white text-4xl break-words`}>AI / ML Engineer</h1>
                     </div>
                 </div>
             </div>
