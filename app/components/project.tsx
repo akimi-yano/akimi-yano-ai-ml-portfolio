@@ -50,37 +50,37 @@ export default function Project() {
   const longTermMemoryForLLMLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/ReproPaper-MemoryBank-SiliconFriend" }]
 
   const maskDetectionTitle = "YOLOv3 vs YOLOv4 Object Detection Comparison for Face With/Without Mask Detection"
-  const maskDetectionImagePath = "/assets/under_construction.jpg"
+  const maskDetectionImagePath = "/assets/mask_no_mask.png"
   const maskDetectionDesc = "This project compares the performance of YOLOv3 and YOLOv4 object detection models on two sample videos, by training machine learning models that classify a face with or without mask."
   const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
   const maskDetectionLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Face_With-Without_Mask_Detection" }]
 
   const segmentationTFTitle = "FloodNet Semantic Segmentation"
-  const segmentationTFImagePath = "/assets/under_construction.jpg"
+  const segmentationTFImagePath = "/assets/floodnet_dataset.jpg"
   const segmentationTFDesc = "This project creates a machine learning model to operate a semantic segmentation on FloodNet images, using TensorFlow. The number of segmentation classes is 10."
   const segmentationTFTags = ["#TensorFlow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
   const segmentationTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/FloodNet_Semantic_Segmentation" }]
 
   const segmentationPTTitle = "Aerial Drone Image Semantic Segmentation"
-  const segmentationPTImagePath = "/assets/under_construction.jpg"
+  const segmentationPTImagePath = "/assets/aerial_drone_segmentation_dataset_image.jpg"
   const segmentationPTDesc = "This project creates a machine learning model to operate a semantic segmentation on aerial images taken by drones, using PyTorch. The number of segmentation classes is 12."
   const segmentationPTTags = ["#PyTorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
   const segmentationPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Aerial_Drone_Image_Semantic_Segmentation" }]
 
   const objectDetectionTFTitle = "Helmets and Vests Object Detection"
-  const objectDetectionTFImagePath = "/assets/under_construction.jpg"
+  const objectDetectionTFImagePath = "/assets/helmet_and_vest_dataset.png"
   const objectDetectionTFDesc = "This project creates a machine learning model to operate an object detection task on vehicle registration plates, using TensorFlow."
   const objectDetectionTFTags = ["#TensorFlow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
   const objectDetectionTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Helmets_and_Vests_Object_Detection" }]
 
   const objectDetectionPTTitle = "Vehicle Registration Plate Object Detection"
-  const objectDetectionPTImagePath = "/assets/under_construction.jpg"
+  const objectDetectionPTImagePath = "/assets/reg_plate_dataset3.png"
   const objectDetectionPTDesc = "This project creates a machine learning model to operate an object detection task on vehicle registration plates, using PyTorch."
   const objectDetectionPTTags = ["#PyTorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
   const objectDetectionPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Vehicle_Registration_Plate_Object_Detection" }]
 
   const climbingFootworkTitle = "Climbing Footwork Classification Model App"
-  const climbingFootworkImagePath = "/assets/under_construction.jpg"
+  const climbingFootworkImagePath = "/assets/climbing_footwork_classification_img.png"
   const climbingFootworkDesc = "This app is an app to classify the climbing footwork technique using Computer Vision technology. I built and compared various Machine Learning models for image classification from data collection and processing to model training. I realized the end-to-end user experience by deploying the models with containerized backend api and hosting the frontend code."
   const climbingFootworkTags = ["#TensorFlow", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
   const climbingFootworkLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/climbing-footwork-classification" },{ "type": "website", "url": "https://climbing-footwork-classification.streamlit.app/" }, { "type": "youtube", "url": "https://youtu.be/JxlRRbaMjQo" }]
