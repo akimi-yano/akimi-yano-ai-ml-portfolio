@@ -10,7 +10,7 @@ export default function Project() {
       <span style={{ color: "pink" }}>TensorFlow/Keras</span>. The number of sports&apos; categories is 73. The model obtained an {" "} <span style={{ color: "red" }}>accuracy score of 0.91921</span> on a test set.
     </>
   );
-  const sportsClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const sportsClassificationTags = ["#TensorFlow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const sportsClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
 
   const kenyanCuisineClassificationTitle = "Kenyan Cuisine Image Classification"
@@ -21,7 +21,7 @@ export default function Project() {
       <span style={{ color: "lightblue" }}>Pytorch</span>. The model obtained an {" "} <span style={{ color: "red" }}>accuracy score of 0.80801</span> on a test set.
     </>
   );
-  const kenyanCuisineClassificationTags = ["#Pytorch", "#Scikit Learn", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const kenyanCuisineClassificationTags = ["#PyTorch", "#Scikit Learn", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const kenyanCuisineClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Kenyan_Cuisine_Image_Classification" }]
 
   const lungXRayClassificationTitle = "Lung X-Ray Classification"
@@ -34,7 +34,7 @@ export default function Project() {
 
     </>
   );
-  const lungXRayClassificationTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const lungXRayClassificationTags = ["#TensorFlow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const lungXRayClassificationLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Lung_X-Ray_Classification" }]
 
   const longTermMemoryForLLMTitle = "Long Term Memory & Search Mechanism for Large Language Model (LLM)"
@@ -46,38 +46,44 @@ export default function Project() {
       <span style={{ color: "yellow" }}>LlamaIndex</span> and the {" "}<span style={{ color: "yellow" }}>text-embedding-ada model</span>. I was able to verify that the Memory Retrieval Mechanism worked, and that the LLM assistant remembered our past converstations.
     </>
   );
-  const longTermMemoryForLLMTags = ["#Tensorflow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
+  const longTermMemoryForLLMTags = ["#TensorFlow", "#Keras", "#Deep Learning", "#Machine Learning", "#Artificial Intelligence"]
   const longTermMemoryForLLMLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/ReproPaper-MemoryBank-SiliconFriend" }]
 
-  // const maskDetectionTitle = "(Mask Detection Comparing Different Versions of YOLO)"
-  // const maskDetectionImagePath = "/assets/under_construction.jpg"
-  // const maskDetectionDesc = "TODO: Upgrade version and push the code."
-  // const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  // const maskDetectionLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  const maskDetectionTitle = "YOLOv3 vs YOLOv4 Object Detection Comparison for Face With/Without Mask Detection"
+  const maskDetectionImagePath = "/assets/under_construction.jpg"
+  const maskDetectionDesc = "This project compares the performance of YOLOv3 and YOLOv4 object detection models on two sample videos, by training machine learning models that classify a face with or without mask."
+  const maskDetectionTags = ["#YOLO", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const maskDetectionLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Face_With-Without_Mask_Detection" }]
 
-  // const segmentationTFTitle = "(Image Segmentation Project Tensorflow)"
-  // const segmentationTFImagePath = "/assets/under_construction.jpg"
-  // const segmentationTFDesc = "Add Image Segmentation Project"
-  // const segmentationTFTags = ["#Tensorflow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
-  // const segmentationTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  const segmentationTFTitle = "FloodNet Semantic Segmentation"
+  const segmentationTFImagePath = "/assets/under_construction.jpg"
+  const segmentationTFDesc = "This project creates a machine learning model to operate a semantic segmentation on FloodNet images, using TensorFlow. The number of segmentation classes is 10."
+  const segmentationTFTags = ["#TensorFlow", "#Keras", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  const segmentationTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/FloodNet_Semantic_Segmentation" }]
 
-  // const segmentationPTTitle = "(Image Segmentation Project Pytorch)"
-  // const segmentationPTImagePath = "/assets/under_construction.jpg"
-  // const segmentationPTDesc = "Add Image Segmentation Project"
-  // const segmentationPTTags = ["#Pytorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
-  // const segmentationPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  const segmentationPTTitle = "Aerial Drone Image Semantic Segmentation"
+  const segmentationPTImagePath = "/assets/under_construction.jpg"
+  const segmentationPTDesc = "This project creates a machine learning model to operate a semantic segmentation on aerial images taken by drones, using PyTorch. The number of segmentation classes is 12."
+  const segmentationPTTags = ["#PyTorch", "#Segmentation", "#Machine Learning", "#Artificial Intelligence"]
+  const segmentationPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Aerial_Drone_Image_Semantic_Segmentation" }]
 
-  // const objectDetectionTFTitle = "(Object Detection Project Tensorflow)"
-  // const objectDetectionTFImagePath = "/assets/under_construction.jpg"
-  // const objectDetectionTFDesc = "Add Image Segmentation Project"
-  // const objectDetectionTFTags = ["#Tensorflow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  // const objectDetectionTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  const objectDetectionTFTitle = "Helmets and Vests Object Detection"
+  const objectDetectionTFImagePath = "/assets/under_construction.jpg"
+  const objectDetectionTFDesc = "This project creates a machine learning model to operate an object detection task on vehicle registration plates, using TensorFlow."
+  const objectDetectionTFTags = ["#TensorFlow", "#Keras", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const objectDetectionTFLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Helmets_and_Vests_Object_Detection" }]
 
-  // const objectDetectionPTTitle = "(Object Detection Project Pytorch)"
-  // const objectDetectionPTImagePath = "/assets/under_construction.jpg"
-  // const objectDetectionPTDesc = "Add Image Segmentation Project"
-  // const objectDetectionPTTags = ["#Pytorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
-  // const objectDetectionPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Sports_Image_Classification" }]
+  const objectDetectionPTTitle = "Vehicle Registration Plate Object Detection"
+  const objectDetectionPTImagePath = "/assets/under_construction.jpg"
+  const objectDetectionPTDesc = "This project creates a machine learning model to operate an object detection task on vehicle registration plates, using PyTorch."
+  const objectDetectionPTTags = ["#PyTorch", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const objectDetectionPTLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/Vehicle_Registration_Plate_Object_Detection" }]
+
+  const climbingFootworkTitle = "Climbing Footwork Classification Model App"
+  const climbingFootworkImagePath = "/assets/under_construction.jpg"
+  const climbingFootworkDesc = "This app is an app to classify the climbing footwork technique using Computer Vision technology. I built and compared various Machine Learning models for image classification from data collection and processing to model training. I realized the end-to-end user experience by deploying the models with containerized backend api and hosting the frontend code."
+  const climbingFootworkTags = ["#TensorFlow", "#Object Detection", "#Machine Learning", "#Artificial Intelligence"]
+  const climbingFootworkLinks = [{ "type": "github", "url": "https://github.com/akimi-yano/climbing-footwork-classification" },{ "type": "website", "url": "https://climbing-footwork-classification.streamlit.app/" }, { "type": "youtube", "url": "https://youtu.be/JxlRRbaMjQo" }]
 
   // const genAITitle = "(Generative AI Project)"
   // const genAIImagePath = "/assets/under_construction.jpg"
@@ -138,12 +144,12 @@ export default function Project() {
           <ProjectCard projectTitile={multilingualVideoChatTitle} projectImagePath={multilingualVideoChatImagePath} projectDesc={multilingualVideoChatDesc} projectTags={multilingualVideoChatTags} projectLinks={multilingualVideoChatLinks} />
           <ProjectCard projectTitile={computerVisionTitle} projectImagePath={computerVisionImagePath} projectDesc={computerVisionDesc} projectTags={computerVisionTags} projectLinks={computerVisionLinks} />
           <ProjectCard projectTitile={ioTTitle} projectImagePath={ioTImagePath} projectDesc={ioTDesc} projectTags={ioTTags} projectLinks={ioTLinks} />
-          {/* <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
-        <ProjectCard projectTitile={segmentationTFTitle} projectImagePath={segmentationTFImagePath} projectDesc={segmentationTFDesc} projectTags={segmentationTFTags} projectLinks={segmentationTFLinks} />
-        <ProjectCard projectTitile={segmentationPTTitle} projectImagePath={segmentationPTImagePath} projectDesc={segmentationPTDesc} projectTags={segmentationPTTags} projectLinks={segmentationPTLinks} />
-        <ProjectCard projectTitile={objectDetectionTFTitle} projectImagePath={objectDetectionTFImagePath} projectDesc={objectDetectionTFDesc} projectTags={objectDetectionTFTags} projectLinks={objectDetectionTFLinks} />
-        <ProjectCard projectTitile={objectDetectionPTTitle} projectImagePath={objectDetectionPTImagePath} projectDesc={objectDetectionPTDesc} projectTags={objectDetectionPTTags} projectLinks={objectDetectionPTLinks} />
-        <ProjectCard projectTitile={genAITitle} projectImagePath={genAIImagePath} projectDesc={genAIDesc} projectTags={genAITags} projectLinks={genAILinks} /> */}
+          <ProjectCard projectTitile={maskDetectionTitle} projectImagePath={maskDetectionImagePath} projectDesc={maskDetectionDesc} projectTags={maskDetectionTags} projectLinks={maskDetectionLinks} />
+          <ProjectCard projectTitile={segmentationTFTitle} projectImagePath={segmentationTFImagePath} projectDesc={segmentationTFDesc} projectTags={segmentationTFTags} projectLinks={segmentationTFLinks} />
+          <ProjectCard projectTitile={segmentationPTTitle} projectImagePath={segmentationPTImagePath} projectDesc={segmentationPTDesc} projectTags={segmentationPTTags} projectLinks={segmentationPTLinks} />
+          <ProjectCard projectTitile={objectDetectionTFTitle} projectImagePath={objectDetectionTFImagePath} projectDesc={objectDetectionTFDesc} projectTags={objectDetectionTFTags} projectLinks={objectDetectionTFLinks} />
+          <ProjectCard projectTitile={objectDetectionPTTitle} projectImagePath={objectDetectionPTImagePath} projectDesc={objectDetectionPTDesc} projectTags={objectDetectionPTTags} projectLinks={objectDetectionPTLinks} />
+          <ProjectCard projectTitile={climbingFootworkTitle} projectImagePath={climbingFootworkImagePath} projectDesc={climbingFootworkDesc} projectTags={climbingFootworkTags} projectLinks={climbingFootworkLinks} />
         </div>
       </div>
     </div >
